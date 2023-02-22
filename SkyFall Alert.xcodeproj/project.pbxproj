@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17CD7EB729A65A16003D78D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7EB629A65A16003D78D9 /* AppDelegate.swift */; };
+		17CD7EB929A65A16003D78D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7EB829A65A16003D78D9 /* SceneDelegate.swift */; };
+		17CD7EBB29A65A16003D78D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7EBA29A65A16003D78D9 /* ViewController.swift */; };
+		17CD7EBE29A65A16003D78D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CD7EBC29A65A16003D78D9 /* Main.storyboard */; };
+		17CD7EC029A65A17003D78D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CD7EBF29A65A17003D78D9 /* Assets.xcassets */; };
+		17CD7EC329A65A17003D78D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CD7EC129A65A17003D78D9 /* LaunchScreen.storyboard */; };
+		17CD7ECE29A65A17003D78D9 /* SkyFall_AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7ECD29A65A17003D78D9 /* SkyFall_AlertTests.swift */; };
+		17CD7ED829A65A17003D78D9 /* SkyFall_AlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7ED729A65A17003D78D9 /* SkyFall_AlertUITests.swift */; };
+		17CD7EDA29A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7ED929A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17CD7ECA29A65A17003D78D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17CD7EAB29A65A16003D78D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17CD7EB229A65A16003D78D9;
+			remoteInfo = "SkyFall Alert";
+		};
+		17CD7ED429A65A17003D78D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17CD7EAB29A65A16003D78D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17CD7EB229A65A16003D78D9;
+			remoteInfo = "SkyFall Alert";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17CD7EB329A65A16003D78D9 /* SkyFall Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkyFall Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CD7EB629A65A16003D78D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17CD7EB829A65A16003D78D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17CD7EBA29A65A16003D78D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17CD7EBD29A65A16003D78D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17CD7EBF29A65A17003D78D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17CD7EC229A65A17003D78D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17CD7EC429A65A17003D78D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CD7EC929A65A17003D78D9 /* SkyFall AlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SkyFall AlertTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CD7ECD29A65A17003D78D9 /* SkyFall_AlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFall_AlertTests.swift; sourceTree = "<group>"; };
+		17CD7ED329A65A17003D78D9 /* SkyFall AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SkyFall AlertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CD7ED729A65A17003D78D9 /* SkyFall_AlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFall_AlertUITests.swift; sourceTree = "<group>"; };
+		17CD7ED929A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFall_AlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17CD7EB029A65A16003D78D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CD7EC629A65A17003D78D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CD7ED029A65A17003D78D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17CD7EAA29A65A16003D78D9 = {
+			isa = PBXGroup;
+			children = (
+				17CD7EB529A65A16003D78D9 /* SkyFall Alert */,
+				17CD7ECC29A65A17003D78D9 /* SkyFall AlertTests */,
+				17CD7ED629A65A17003D78D9 /* SkyFall AlertUITests */,
+				17CD7EB429A65A16003D78D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17CD7EB429A65A16003D78D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17CD7EB329A65A16003D78D9 /* SkyFall Alert.app */,
+				17CD7EC929A65A17003D78D9 /* SkyFall AlertTests.xctest */,
+				17CD7ED329A65A17003D78D9 /* SkyFall AlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17CD7EB529A65A16003D78D9 /* SkyFall Alert */ = {
+			isa = PBXGroup;
+			children = (
+				17CD7EB629A65A16003D78D9 /* AppDelegate.swift */,
+				17CD7EB829A65A16003D78D9 /* SceneDelegate.swift */,
+				17CD7EBA29A65A16003D78D9 /* ViewController.swift */,
+				17CD7EBC29A65A16003D78D9 /* Main.storyboard */,
+				17CD7EBF29A65A17003D78D9 /* Assets.xcassets */,
+				17CD7EC129A65A17003D78D9 /* LaunchScreen.storyboard */,
+				17CD7EC429A65A17003D78D9 /* Info.plist */,
+			);
+			path = "SkyFall Alert";
+			sourceTree = "<group>";
+		};
+		17CD7ECC29A65A17003D78D9 /* SkyFall AlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				17CD7ECD29A65A17003D78D9 /* SkyFall_AlertTests.swift */,
+			);
+			path = "SkyFall AlertTests";
+			sourceTree = "<group>";
+		};
+		17CD7ED629A65A17003D78D9 /* SkyFall AlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17CD7ED729A65A17003D78D9 /* SkyFall_AlertUITests.swift */,
+				17CD7ED929A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift */,
+			);
+			path = "SkyFall AlertUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17CD7EB229A65A16003D78D9 /* SkyFall Alert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17CD7EDD29A65A17003D78D9 /* Build configuration list for PBXNativeTarget "SkyFall Alert" */;
+			buildPhases = (
+				17CD7EAF29A65A16003D78D9 /* Sources */,
+				17CD7EB029A65A16003D78D9 /* Frameworks */,
+				17CD7EB129A65A16003D78D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkyFall Alert";
+			productName = "SkyFall Alert";
+			productReference = 17CD7EB329A65A16003D78D9 /* SkyFall Alert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17CD7EC829A65A17003D78D9 /* SkyFall AlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17CD7EE029A65A17003D78D9 /* Build configuration list for PBXNativeTarget "SkyFall AlertTests" */;
+			buildPhases = (
+				17CD7EC529A65A17003D78D9 /* Sources */,
+				17CD7EC629A65A17003D78D9 /* Frameworks */,
+				17CD7EC729A65A17003D78D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17CD7ECB29A65A17003D78D9 /* PBXTargetDependency */,
+			);
+			name = "SkyFall AlertTests";
+			productName = "SkyFall AlertTests";
+			productReference = 17CD7EC929A65A17003D78D9 /* SkyFall AlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17CD7ED229A65A17003D78D9 /* SkyFall AlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17CD7EE329A65A17003D78D9 /* Build configuration list for PBXNativeTarget "SkyFall AlertUITests" */;
+			buildPhases = (
+				17CD7ECF29A65A17003D78D9 /* Sources */,
+				17CD7ED029A65A17003D78D9 /* Frameworks */,
+				17CD7ED129A65A17003D78D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17CD7ED529A65A17003D78D9 /* PBXTargetDependency */,
+			);
+			name = "SkyFall AlertUITests";
+			productName = "SkyFall AlertUITests";
+			productReference = 17CD7ED329A65A17003D78D9 /* SkyFall AlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17CD7EAB29A65A16003D78D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					17CD7EB229A65A16003D78D9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					17CD7EC829A65A17003D78D9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 17CD7EB229A65A16003D78D9;
+					};
+					17CD7ED229A65A17003D78D9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 17CD7EB229A65A16003D78D9;
+					};
+				};
+			};
+			buildConfigurationList = 17CD7EAE29A65A16003D78D9 /* Build configuration list for PBXProject "SkyFall Alert" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17CD7EAA29A65A16003D78D9;
+			productRefGroup = 17CD7EB429A65A16003D78D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17CD7EB229A65A16003D78D9 /* SkyFall Alert */,
+				17CD7EC829A65A17003D78D9 /* SkyFall AlertTests */,
+				17CD7ED229A65A17003D78D9 /* SkyFall AlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17CD7EB129A65A16003D78D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CD7EC329A65A17003D78D9 /* LaunchScreen.storyboard in Resources */,
+				17CD7EC029A65A17003D78D9 /* Assets.xcassets in Resources */,
+				17CD7EBE29A65A16003D78D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CD7EC729A65A17003D78D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CD7ED129A65A17003D78D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17CD7EAF29A65A16003D78D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CD7EBB29A65A16003D78D9 /* ViewController.swift in Sources */,
+				17CD7EB729A65A16003D78D9 /* AppDelegate.swift in Sources */,
+				17CD7EB929A65A16003D78D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CD7EC529A65A17003D78D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CD7ECE29A65A17003D78D9 /* SkyFall_AlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CD7ECF29A65A17003D78D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CD7EDA29A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift in Sources */,
+				17CD7ED829A65A17003D78D9 /* SkyFall_AlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17CD7ECB29A65A17003D78D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17CD7EB229A65A16003D78D9 /* SkyFall Alert */;
+			targetProxy = 17CD7ECA29A65A17003D78D9 /* PBXContainerItemProxy */;
+		};
+		17CD7ED529A65A17003D78D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17CD7EB229A65A16003D78D9 /* SkyFall Alert */;
+			targetProxy = 17CD7ED429A65A17003D78D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17CD7EBC29A65A16003D78D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17CD7EBD29A65A16003D78D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17CD7EC129A65A17003D78D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17CD7EC229A65A17003D78D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17CD7EDB29A65A17003D78D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17CD7EDC29A65A17003D78D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17CD7EDE29A65A17003D78D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 865LZJTWC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SkyFall Alert/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.marekbartak.SkyFall-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17CD7EDF29A65A17003D78D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 865LZJTWC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SkyFall Alert/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.marekbartak.SkyFall-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17CD7EE129A65A17003D78D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 865LZJTWC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.marekbartak.SkyFall-AlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyFall Alert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkyFall Alert";
+			};
+			name = Debug;
+		};
+		17CD7EE229A65A17003D78D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 865LZJTWC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.marekbartak.SkyFall-AlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyFall Alert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkyFall Alert";
+			};
+			name = Release;
+		};
+		17CD7EE429A65A17003D78D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 865LZJTWC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.marekbartak.SkyFall-AlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SkyFall Alert";
+			};
+			name = Debug;
+		};
+		17CD7EE529A65A17003D78D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 865LZJTWC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.marekbartak.SkyFall-AlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SkyFall Alert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17CD7EAE29A65A16003D78D9 /* Build configuration list for PBXProject "SkyFall Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CD7EDB29A65A17003D78D9 /* Debug */,
+				17CD7EDC29A65A17003D78D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17CD7EDD29A65A17003D78D9 /* Build configuration list for PBXNativeTarget "SkyFall Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CD7EDE29A65A17003D78D9 /* Debug */,
+				17CD7EDF29A65A17003D78D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17CD7EE029A65A17003D78D9 /* Build configuration list for PBXNativeTarget "SkyFall AlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CD7EE129A65A17003D78D9 /* Debug */,
+				17CD7EE229A65A17003D78D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17CD7EE329A65A17003D78D9 /* Build configuration list for PBXNativeTarget "SkyFall AlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CD7EE429A65A17003D78D9 /* Debug */,
+				17CD7EE529A65A17003D78D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17CD7EAB29A65A16003D78D9 /* Project object */;
+}
