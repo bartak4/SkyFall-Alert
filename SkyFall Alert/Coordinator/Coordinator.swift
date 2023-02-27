@@ -16,11 +16,9 @@ public protocol CoordinatorDelegate: AnyObject {
 class MainCoordinator {
     
     public weak var navigationController: UINavigationController?
-
     
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
-        
     }
     
     func start() {

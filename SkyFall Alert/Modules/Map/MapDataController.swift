@@ -98,7 +98,12 @@ extension MapDataController: MapModelDataControllerDelegate {
     }
     
     func presentError(_ error: Error) {
-        print("error: \(error)")
+        if let error = error as? ApiError {
+            view?.display(alert: .init(title: "Error", message: error.errorDescription, style: .alert))
+        }
+        else {
+            view?.display(alert: .init(title: "Error", message: error.localizedDescription, style: .alert))
+        }
     }
 }
 extension MapDataController: FilterDelegate {

@@ -43,7 +43,6 @@ final class SettingsViewModel {
         }
         massMin = Float(smallestMeteorite.mass)
         massMax = Float(largestMeteorite.mass)
-        
     }
     
     private func setupDataForYearsSlider(meteorites: [Meteorite]) {
@@ -63,7 +62,5 @@ final class SettingsViewModel {
         minYear = Float(youngestMeteorite.year)
         maxYear = Float(oldestMeteorite.year)
     }
-    
-
 }
 

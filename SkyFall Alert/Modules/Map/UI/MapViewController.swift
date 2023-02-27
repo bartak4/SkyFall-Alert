@@ -9,7 +9,7 @@ import SnapKit
 /// func display(_ viewModel: MapViewModel)
 /// func displayProfileImage(_ image: UIImage)
 /// ```
-protocol MapViewType: UIViewController {
+protocol MapViewType: ViewType, AlertViewPresentable {
     func display(_ viewModel: MapViewModel)
 }
 
@@ -27,15 +27,14 @@ final class MapViewController: UIViewController {
         super.viewDidLoad()
         dataController.viewDidLoad()
         setupUI()
+        styleViews()
         setUpMapView()
         mapView.delegate = self
-        navigationController?.navigationBar.isHidden = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.navigationBar.isHidden = true
     }
-
     
     @objc private func didTapMainButton() {
         dataController.didTapMainButton()
@@ -51,26 +50,6 @@ final class MapViewController: UIViewController {
         view.addSubview(mainButton)
         view.addSubview(settingsButton)
         view.addSubview(resultLabel)
-        
-        mapView.showsUserLocation = true
-        mapView.translatesAutoresizingMaskIntoConstraints = false
-
-        mainButton.setTitleColor(.white, for: .normal)
-        mainButton.backgroundColor = .gray.withAlphaComponent(0.7)
-        mainButton.layer.cornerRadius = 21
-        mainButton.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-        mainButton.addTarget(self, action: #selector(didTapMainButton), for: .touchUpInside)
-
-        settingsButton.setImage(UIImage(systemName: "gear")?.withTintColor(.white, renderingMode: .alwaysOriginal), for: .normal)
-        settingsButton.setTitleColor(.white, for: .normal)
-        settingsButton.backgroundColor = .gray.withAlphaComponent(0.7)
-        settingsButton.layer.cornerRadius = 21
-        settingsButton.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-        settingsButton.addTarget(self, action: #selector(didTapSettings), for: .touchUpInside)
-        resultLabel.textColor = .white
-        resultLabel.backgroundColor = .gray.withAlphaComponent(0.7)
-        resultLabel.layer.cornerRadius = 21
-        resultLabel.layer.masksToBounds = true
 
         mainButton.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
@@ -89,20 +68,37 @@ final class MapViewController: UIViewController {
         resultLabel.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.centerY.equalTo(settingsButton)
-            make.height.equalTo(42)
+            make.height.equalTo(settingsButton.snp.height)
         }
     }
     
+    private func styleViews() {
+        mapView.showsUserLocation = true
+        mapView.translatesAutoresizingMaskIntoConstraints = false
+        mapView.showsCompass = false
+        
+        mainButton.setDefaultButtonStyle()
+        mainButton.addTarget(self, action: #selector(didTapMainButton), for: .touchUpInside)
+
+        settingsButton.setImage(UIImage(systemName: "gear")?.withTintColor(.white, renderingMode: .alwaysOriginal), for: .normal)
+        settingsButton.setTitleColor(.white, for: .normal)
+        settingsButton.setDefaultButtonStyle()
+        settingsButton.addTarget(self, action: #selector(didTapSettings), for: .touchUpInside)
+        
+        resultLabel.textColor = .white
+        resultLabel.backgroundColor = .gray.withAlphaComponent(0.7)
+        resultLabel.layer.cornerRadius = 20
+        resultLabel.layer.masksToBounds = true
+    }
     
     
     private func setUpMapView() {
-        mapView.showsCompass = false
+        // TODO: in future convert initialLocation to current position
         let initialLocation = CLLocation(latitude: 50.0691, longitude: 14.4276)
         mapView.centerToLocation(initialLocation)
         mapView.register(
             MeteorView.self,
             forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
-        
     }
 }
 
@@ -116,8 +112,15 @@ extension MapViewController: MapViewType {
     /// ```
     func display(_ viewModel: MapViewModel) {
         self.viewModel = viewModel
-        mapView.removeAnnotations(mapView.annotations)
         mapView.addAnnotations(viewModel.meteorites)
+        if let meteorites = mapView.annotations as? [Meteorite] {
+            let meteoritesToDelete = meteorites.filter { meteorite in
+                !viewModel.meteorites.contains([meteorite])
+            }
+            mapView.removeAnnotations(meteoritesToDelete)
+        }
+
+        print(mapView.annotations.count)
         mainButton.setTitle(viewModel.mainButtonTitle, for: .normal)
         resultLabel.text = viewModel.resultTitle
         if viewModel.meteorites.count > 0 {
@@ -148,3 +151,4 @@ extension MapViewController: MKMapViewDelegate {
         dataController.meteorSelected(meteor: meteor)
     }
 }
+

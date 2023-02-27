@@ -26,7 +26,7 @@ final class DetailMeteoriteCell: UITableViewCell {
     
     var viewModel: DetailMeteoriteCellViewModel!
     
-    func setupViews() {
+    private func setupViews() {
         for component in viewModel.components {
             switch component {
                 case .leftText(_):
@@ -39,10 +39,8 @@ final class DetailMeteoriteCell: UITableViewCell {
             }
         }
     }
-
-    // asynch await, predelani networking servise, priblizovani z pozice kde byla otevrena mapa, unit testy, ui testy, dakr mode, filter, zkontrolvat header, projit a promazat ybztecne veci, automaticky filter kdyz oddalis, icona aplikace, launch obrazovka
     
-    func setupConstraints() {
+    private func setupConstraints() {
         for component in viewModel.components {
             switch component {
                 case .leftText(_):
@@ -68,7 +66,7 @@ final class DetailMeteoriteCell: UITableViewCell {
         }
     }
     
-    func styleViews() {
+    private func styleViews() {
         self.isUserInteractionEnabled = false
         self.layoutMargins = UIEdgeInsets.zero
     }

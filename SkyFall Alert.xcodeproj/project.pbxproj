@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1712B71329AD0195001C900D /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71229AD0195001C900D /* Extension+UIButton.swift */; };
+		1712B71429AD0195001C900D /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71229AD0195001C900D /* Extension+UIButton.swift */; };
+		1712B71529AD0195001C900D /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71229AD0195001C900D /* Extension+UIButton.swift */; };
+		1712B71729AD136C001C900D /* Extension+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71629AD136C001C900D /* Extension+Formatter.swift */; };
+		1712B71829AD136C001C900D /* Extension+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71629AD136C001C900D /* Extension+Formatter.swift */; };
+		1712B71929AD136C001C900D /* Extension+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71629AD136C001C900D /* Extension+Formatter.swift */; };
+		1712B71B29AD13A4001C900D /* Extension+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71A29AD13A4001C900D /* Extension+Numeric.swift */; };
+		1712B71C29AD13A4001C900D /* Extension+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71A29AD13A4001C900D /* Extension+Numeric.swift */; };
+		1712B71D29AD13A4001C900D /* Extension+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71A29AD13A4001C900D /* Extension+Numeric.swift */; };
+		1712B71F29AD14F4001C900D /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71E29AD14F4001C900D /* ViewType.swift */; };
+		1712B72029AD14F4001C900D /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71E29AD14F4001C900D /* ViewType.swift */; };
+		1712B72129AD14F4001C900D /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71E29AD14F4001C900D /* ViewType.swift */; };
+		1712B72329AD1537001C900D /* AlertViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72229AD1537001C900D /* AlertViewPresentable.swift */; };
+		1712B72429AD1537001C900D /* AlertViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72229AD1537001C900D /* AlertViewPresentable.swift */; };
+		1712B72529AD1537001C900D /* AlertViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72229AD1537001C900D /* AlertViewPresentable.swift */; };
 		1748863029A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
 		1748863129A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
 		1748863229A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
@@ -122,6 +137,9 @@
 		17EBAA0529ACCC3B00535D2C /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */; };
 		17EBAA0629ACCC3B00535D2C /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */; };
 		17EBAA0729ACCC3B00535D2C /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */; };
+		79A1486DDFB69E2F1FDF7627 /* Pods_SkyFall_AlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2504382A1E7A6F45911DF2 /* Pods_SkyFall_AlertTests.framework */; };
+		B4D04E43D31F691E6D59028B /* Pods_SkyFall_Alert_SkyFall_AlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840207BD25EA8B0E4D907FDD /* Pods_SkyFall_Alert_SkyFall_AlertUITests.framework */; };
+		F5633FAC5EDEA95C66BABC64 /* Pods_SkyFall_Alert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927A850A6E6125DC732A1C8C /* Pods_SkyFall_Alert.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +160,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1712B71229AD0195001C900D /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
+		1712B71629AD136C001C900D /* Extension+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Formatter.swift"; sourceTree = "<group>"; };
+		1712B71A29AD13A4001C900D /* Extension+Numeric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Numeric.swift"; sourceTree = "<group>"; };
+		1712B71E29AD14F4001C900D /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		1712B72229AD1537001C900D /* AlertViewPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewPresentable.swift; sourceTree = "<group>"; };
 		1748862F29A8D230009634C0 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 		1748863329A8D4B8009634C0 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
 		1748863C29A93712009634C0 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
@@ -189,6 +212,15 @@
 		17CD7ED929A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFall_AlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataControllerType.swift; sourceTree = "<group>"; };
+		1A2504382A1E7A6F45911DF2 /* Pods_SkyFall_AlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyFall_AlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C26CD71ECD8F4228D3FB93 /* Pods-SkyFall AlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyFall AlertTests.release.xcconfig"; path = "Target Support Files/Pods-SkyFall AlertTests/Pods-SkyFall AlertTests.release.xcconfig"; sourceTree = "<group>"; };
+		66C6948123AED2986DC78968 /* Pods-SkyFall Alert-SkyFall AlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyFall Alert-SkyFall AlertUITests.release.xcconfig"; path = "Target Support Files/Pods-SkyFall Alert-SkyFall AlertUITests/Pods-SkyFall Alert-SkyFall AlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		787E8946BA4CD0AB62926C4F /* Pods-SkyFall AlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyFall AlertTests.debug.xcconfig"; path = "Target Support Files/Pods-SkyFall AlertTests/Pods-SkyFall AlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		840207BD25EA8B0E4D907FDD /* Pods_SkyFall_Alert_SkyFall_AlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyFall_Alert_SkyFall_AlertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C8879D03A9DCC850ED786E /* Pods-SkyFall Alert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyFall Alert.debug.xcconfig"; path = "Target Support Files/Pods-SkyFall Alert/Pods-SkyFall Alert.debug.xcconfig"; sourceTree = "<group>"; };
+		8C7F1D89C87D1467B4B131B3 /* Pods-SkyFall Alert-SkyFall AlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyFall Alert-SkyFall AlertUITests.debug.xcconfig"; path = "Target Support Files/Pods-SkyFall Alert-SkyFall AlertUITests/Pods-SkyFall Alert-SkyFall AlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		927A850A6E6125DC732A1C8C /* Pods_SkyFall_Alert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyFall_Alert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC70BCB8078BC1B0EB0A5AD /* Pods-SkyFall Alert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyFall Alert.release.xcconfig"; path = "Target Support Files/Pods-SkyFall Alert/Pods-SkyFall Alert.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5633FAC5EDEA95C66BABC64 /* Pods_SkyFall_Alert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +236,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A1486DDFB69E2F1FDF7627 /* Pods_SkyFall_AlertTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D04E43D31F691E6D59028B /* Pods_SkyFall_Alert_SkyFall_AlertUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +324,8 @@
 			children = (
 				17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */,
 				17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */,
+				1712B71E29AD14F4001C900D /* ViewType.swift */,
+				1712B72229AD1537001C900D /* AlertViewPresentable.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -296,8 +333,11 @@
 		177A4EDF29AA448D006060E4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1712B71629AD136C001C900D /* Extension+Formatter.swift */,
 				177A4EE029AA44CA006060E4 /* Extension+UIImage.swift */,
 				177A4F0729AA9F11006060E4 /* Extension+UITableViewCell.swift */,
+				1712B71229AD0195001C900D /* Extension+UIButton.swift */,
+				1712B71A29AD13A4001C900D /* Extension+Numeric.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -367,6 +407,7 @@
 				17CD7ED629A65A17003D78D9 /* SkyFall AlertUITests */,
 				17CD7EB429A65A16003D78D9 /* Products */,
 				BE2704B58E8DC1FBAC9FDC65 /* Pods */,
+				5D98F13C0E879EF592240FE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -414,9 +455,25 @@
 			path = "SkyFall AlertUITests";
 			sourceTree = "<group>";
 		};
+		5D98F13C0E879EF592240FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				927A850A6E6125DC732A1C8C /* Pods_SkyFall_Alert.framework */,
+				840207BD25EA8B0E4D907FDD /* Pods_SkyFall_Alert_SkyFall_AlertUITests.framework */,
+				1A2504382A1E7A6F45911DF2 /* Pods_SkyFall_AlertTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE2704B58E8DC1FBAC9FDC65 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				89C8879D03A9DCC850ED786E /* Pods-SkyFall Alert.debug.xcconfig */,
+				BEC70BCB8078BC1B0EB0A5AD /* Pods-SkyFall Alert.release.xcconfig */,
+				8C7F1D89C87D1467B4B131B3 /* Pods-SkyFall Alert-SkyFall AlertUITests.debug.xcconfig */,
+				66C6948123AED2986DC78968 /* Pods-SkyFall Alert-SkyFall AlertUITests.release.xcconfig */,
+				787E8946BA4CD0AB62926C4F /* Pods-SkyFall AlertTests.debug.xcconfig */,
+				41C26CD71ECD8F4228D3FB93 /* Pods-SkyFall AlertTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -428,9 +485,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17CD7EDD29A65A17003D78D9 /* Build configuration list for PBXNativeTarget "SkyFall Alert" */;
 			buildPhases = (
+				C52B23653067C82DEAA5D93B /* [CP] Check Pods Manifest.lock */,
 				17CD7EAF29A65A16003D78D9 /* Sources */,
 				17CD7EB029A65A16003D78D9 /* Frameworks */,
 				17CD7EB129A65A16003D78D9 /* Resources */,
+				804D56F7FCED0D596E6820C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -445,6 +504,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17CD7EE029A65A17003D78D9 /* Build configuration list for PBXNativeTarget "SkyFall AlertTests" */;
 			buildPhases = (
+				B24EF4534A718BB885F6FBB1 /* [CP] Check Pods Manifest.lock */,
 				17CD7EC529A65A17003D78D9 /* Sources */,
 				17CD7EC629A65A17003D78D9 /* Frameworks */,
 				17CD7EC729A65A17003D78D9 /* Resources */,
@@ -463,9 +523,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17CD7EE329A65A17003D78D9 /* Build configuration list for PBXNativeTarget "SkyFall AlertUITests" */;
 			buildPhases = (
+				3C1E0F59D997E59DA9A2314B /* [CP] Check Pods Manifest.lock */,
 				17CD7ECF29A65A17003D78D9 /* Sources */,
 				17CD7ED029A65A17003D78D9 /* Frameworks */,
 				17CD7ED129A65A17003D78D9 /* Resources */,
+				5B96E4518F7875F3144504C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -546,11 +608,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C1E0F59D997E59DA9A2314B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyFall Alert-SkyFall AlertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B96E4518F7875F3144504C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyFall Alert-SkyFall AlertUITests/Pods-SkyFall Alert-SkyFall AlertUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyFall Alert-SkyFall AlertUITests/Pods-SkyFall Alert-SkyFall AlertUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyFall Alert-SkyFall AlertUITests/Pods-SkyFall Alert-SkyFall AlertUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		804D56F7FCED0D596E6820C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyFall Alert/Pods-SkyFall Alert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyFall Alert/Pods-SkyFall Alert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyFall Alert/Pods-SkyFall Alert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24EF4534A718BB885F6FBB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyFall AlertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C52B23653067C82DEAA5D93B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyFall Alert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17CD7EAF29A65A16003D78D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1712B71F29AD14F4001C900D /* ViewType.swift in Sources */,
 				177A4F0029AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */,
 				17EBAA0529ACCC3B00535D2C /* DataControllerType.swift in Sources */,
 				177A4EF829AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */,
@@ -562,15 +728,18 @@
 				1748864929A938ED009634C0 /* APIAuthorization.swift in Sources */,
 				177A4F1329AB784B006060E4 /* SettingsViewController.swift in Sources */,
 				177A4ED829AA28CF006060E4 /* MeteorResponse.swift in Sources */,
+				1712B71329AD0195001C900D /* Extension+UIButton.swift in Sources */,
 				177A4F0429AA9C28006060E4 /* DetailMeteoriteCell.swift in Sources */,
 				17B97B3C29A76B6500461873 /* Meteorite.swift in Sources */,
 				1748864529A938A9009634C0 /* ApiError.swift in Sources */,
 				177A4F1B29AB7F94006060E4 /* SettingsModelController.swift in Sources */,
+				1712B71729AD136C001C900D /* Extension+Formatter.swift in Sources */,
 				1748864129A93867009634C0 /* NetworkingHeader.swift in Sources */,
 				177A4EEC29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */,
 				177A4EF029AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */,
 				1748866229AA0F45009634C0 /* MapModelController.swift in Sources */,
 				1748866529AA0F45009634C0 /* MapFactory.swift in Sources */,
+				1712B71B29AD13A4001C900D /* Extension+Numeric.swift in Sources */,
 				177A4EFC29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */,
 				177A4F1F29AB7FA8006060E4 /* SettingsViewModel.swift in Sources */,
 				17CD7EB729A65A16003D78D9 /* AppDelegate.swift in Sources */,
@@ -588,6 +757,7 @@
 				17EBAA0229ACCC3B00535D2C /* ViewModelType.swift in Sources */,
 				1748863D29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
 				1748863429A8D4B8009634C0 /* ApiEndpoint.swift in Sources */,
+				1712B72329AD1537001C900D /* AlertViewPresentable.swift in Sources */,
 				1748865F29AA0F45009634C0 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,6 +771,8 @@
 				1748866329AA0F45009634C0 /* MapModelController.swift in Sources */,
 				1748866629AA0F45009634C0 /* MapFactory.swift in Sources */,
 				1748863E29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
+				1712B71C29AD13A4001C900D /* Extension+Numeric.swift in Sources */,
+				1712B72029AD14F4001C900D /* ViewType.swift in Sources */,
 				1748863129A8D230009634C0 /* NetworkingService.swift in Sources */,
 				177A4F0D29AB6A70006060E4 /* NavigationController.swift in Sources */,
 				177A4EFD29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */,
@@ -621,7 +793,10 @@
 				1748864629A938A9009634C0 /* ApiError.swift in Sources */,
 				177A4F1429AB784B006060E4 /* SettingsViewController.swift in Sources */,
 				1748864A29A938ED009634C0 /* APIAuthorization.swift in Sources */,
+				1712B71429AD0195001C900D /* Extension+UIButton.swift in Sources */,
+				1712B72429AD1537001C900D /* AlertViewPresentable.swift in Sources */,
 				177A4F2829AB7FCC006060E4 /* SettingsFactory.swift in Sources */,
+				1712B71829AD136C001C900D /* Extension+Formatter.swift in Sources */,
 				177A4F3429AC9ED4006060E4 /* VoidResponse.swift in Sources */,
 				1748865A29AA0F45009634C0 /* MapInitialData.swift in Sources */,
 				177A4F2029AB7FA8006060E4 /* SettingsViewModel.swift in Sources */,
@@ -640,6 +815,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1712B72129AD14F4001C900D /* ViewType.swift in Sources */,
 				177A4F0229AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */,
 				17EBAA0729ACCC3B00535D2C /* DataControllerType.swift in Sources */,
 				177A4EFA29AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */,
@@ -651,15 +827,18 @@
 				177A4EDA29AA28CF006060E4 /* MeteorResponse.swift in Sources */,
 				177A4F1529AB784B006060E4 /* SettingsViewController.swift in Sources */,
 				177A4EDE29AA2A26006060E4 /* MeteorMapper.swift in Sources */,
+				1712B71529AD0195001C900D /* Extension+UIButton.swift in Sources */,
 				177A4F0629AA9C28006060E4 /* DetailMeteoriteCell.swift in Sources */,
 				17CD7EDA29A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift in Sources */,
 				177A4F1D29AB7F94006060E4 /* SettingsModelController.swift in Sources */,
 				177A4EE829AA5675006060E4 /* Coordinator.swift in Sources */,
+				1712B71929AD136C001C900D /* Extension+Formatter.swift in Sources */,
 				177A4EEE29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */,
 				177A4EF229AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */,
 				1748865829AA0F45009634C0 /* MapDataController.swift in Sources */,
 				1748864B29A938ED009634C0 /* APIAuthorization.swift in Sources */,
 				1748864329A93867009634C0 /* NetworkingHeader.swift in Sources */,
+				1712B71D29AD13A4001C900D /* Extension+Numeric.swift in Sources */,
 				177A4EFE29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */,
 				177A4F2129AB7FA8006060E4 /* SettingsViewModel.swift in Sources */,
 				17CD7ED829A65A17003D78D9 /* SkyFall_AlertUITests.swift in Sources */,
@@ -677,6 +856,7 @@
 				17EBAA0429ACCC3B00535D2C /* ViewModelType.swift in Sources */,
 				1748865E29AA0F45009634C0 /* MapViewModel.swift in Sources */,
 				1748863F29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
+				1712B72529AD1537001C900D /* AlertViewPresentable.swift in Sources */,
 				1748866129AA0F45009634C0 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -824,6 +1004,7 @@
 		};
 		17CD7EDE29A65A17003D78D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C8879D03A9DCC850ED786E /* Pods-SkyFall Alert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -834,7 +1015,6 @@
 				INFOPLIST_FILE = "SkyFall Alert/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -853,6 +1033,7 @@
 		};
 		17CD7EDF29A65A17003D78D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC70BCB8078BC1B0EB0A5AD /* Pods-SkyFall Alert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -863,7 +1044,6 @@
 				INFOPLIST_FILE = "SkyFall Alert/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -882,6 +1062,7 @@
 		};
 		17CD7EE129A65A17003D78D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787E8946BA4CD0AB62926C4F /* Pods-SkyFall AlertTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -902,6 +1083,7 @@
 		};
 		17CD7EE229A65A17003D78D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C26CD71ECD8F4228D3FB93 /* Pods-SkyFall AlertTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -922,6 +1104,7 @@
 		};
 		17CD7EE429A65A17003D78D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7F1D89C87D1467B4B131B3 /* Pods-SkyFall Alert-SkyFall AlertUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -940,6 +1123,7 @@
 		};
 		17CD7EE529A65A17003D78D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C6948123AED2986DC78968 /* Pods-SkyFall Alert-SkyFall AlertUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -63,5 +63,4 @@ extension SettingsDataController: SettingsViewModelDataControllerDelegate {
 
 extension SettingsDataController: SettingsModelDataControllerDelegate {
     
-    
 }

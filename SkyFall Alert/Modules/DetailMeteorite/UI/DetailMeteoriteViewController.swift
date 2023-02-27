@@ -16,7 +16,7 @@ import MapKit
 /// func display(_ viewModel: DetailMeteoriteViewModel)
 /// func displayProfileImage(_ image: UIImage)
 /// ```
-protocol DetailMeteoriteViewType: UIViewController {
+protocol DetailMeteoriteViewType: ViewType {
     func display(_ viewModel: DetailMeteoriteViewModel)
 }
 

@@ -17,7 +17,6 @@ final class DetailMeteoriteViewModel {
     
     private func getFormattedMass(mass: Int) -> String {
         "\(mass.formattedWithSeparator) g"
-        
     }
     
     private func prepareCellsViewModel(meteorite: Meteorite) -> [DetailMeteoriteCellViewModel] {
@@ -33,18 +32,4 @@ final class DetailMeteoriteViewModel {
             .init(components: [.image(image: meteorite.image, classification: meteorite.classification)]),
         ]
     }
-}
-
-
-extension Formatter {
-    static let withSeparator: NumberFormatter = {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .decimal
-        formatter.groupingSeparator = " "
-        return formatter
-    }()
-}
-
-extension Numeric {
-    var formattedWithSeparator: String { Formatter.withSeparator.string(for: self) ?? "" }
 }

@@ -8,6 +8,5 @@
 import Foundation
 
 public protocol DataControllerType: ViewModelType {
-    /// View is initialized from storyboard and ready to display a view model and to interact
     func viewDidLoad()
 }

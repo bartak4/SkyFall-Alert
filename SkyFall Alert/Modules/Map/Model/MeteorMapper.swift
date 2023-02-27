@@ -32,9 +32,8 @@ extension MeteorMapper: MeteorMapperType {
                       year: getYear(isoDate: $0.year ?? ""),
                       coordinate: .init(latitude: Double($0.reclat ?? "") ?? 0.0, longitude: Double($0.reclong ?? "") ?? 0.0))
         }
-        .filter({ $0.mass != 0 })
-        .filter({ $0.year != 0 })
-        
-        
+        .filter({
+            $0.mass != 0 && $0.year != 0
+        })
     }
 }
