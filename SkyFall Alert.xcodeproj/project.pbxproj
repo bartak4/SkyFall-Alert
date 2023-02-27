@@ -43,12 +43,6 @@
 		1748866529AA0F45009634C0 /* MapFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865529AA0F45009634C0 /* MapFactory.swift */; };
 		1748866629AA0F45009634C0 /* MapFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865529AA0F45009634C0 /* MapFactory.swift */; };
 		1748866729AA0F45009634C0 /* MapFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865529AA0F45009634C0 /* MapFactory.swift */; };
-		1748869029AA1D81009634C0 /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748868F29AA1D81009634C0 /* DataControllerType.swift */; };
-		1748869129AA1D81009634C0 /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748868F29AA1D81009634C0 /* DataControllerType.swift */; };
-		1748869229AA1D81009634C0 /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748868F29AA1D81009634C0 /* DataControllerType.swift */; };
-		1748869429AA1DC7009634C0 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748869329AA1DC7009634C0 /* ViewModelType.swift */; };
-		1748869529AA1DC7009634C0 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748869329AA1DC7009634C0 /* ViewModelType.swift */; };
-		1748869629AA1DC7009634C0 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748869329AA1DC7009634C0 /* ViewModelType.swift */; };
 		177A4ED829AA28CF006060E4 /* MeteorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4ED729AA28CF006060E4 /* MeteorResponse.swift */; };
 		177A4ED929AA28CF006060E4 /* MeteorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4ED729AA28CF006060E4 /* MeteorResponse.swift */; };
 		177A4EDA29AA28CF006060E4 /* MeteorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4ED729AA28CF006060E4 /* MeteorResponse.swift */; };
@@ -122,6 +116,12 @@
 		17CD7ECE29A65A17003D78D9 /* SkyFall_AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7ECD29A65A17003D78D9 /* SkyFall_AlertTests.swift */; };
 		17CD7ED829A65A17003D78D9 /* SkyFall_AlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7ED729A65A17003D78D9 /* SkyFall_AlertUITests.swift */; };
 		17CD7EDA29A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7ED929A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift */; };
+		17EBAA0229ACCC3B00535D2C /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */; };
+		17EBAA0329ACCC3B00535D2C /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */; };
+		17EBAA0429ACCC3B00535D2C /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */; };
+		17EBAA0529ACCC3B00535D2C /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */; };
+		17EBAA0629ACCC3B00535D2C /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */; };
+		17EBAA0729ACCC3B00535D2C /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,8 +154,6 @@
 		1748865329AA0F45009634C0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		1748865429AA0F45009634C0 /* MapModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModelController.swift; sourceTree = "<group>"; };
 		1748865529AA0F45009634C0 /* MapFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFactory.swift; sourceTree = "<group>"; };
-		1748868F29AA1D81009634C0 /* DataControllerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataControllerType.swift; path = ../../../../../../DataControllerType.swift; sourceTree = "<group>"; };
-		1748869329AA1DC7009634C0 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewModelType.swift; path = ../../../../../../ViewModelType.swift; sourceTree = "<group>"; };
 		177A4ED729AA28CF006060E4 /* MeteorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorResponse.swift; sourceTree = "<group>"; };
 		177A4EDB29AA2A26006060E4 /* MeteorMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorMapper.swift; sourceTree = "<group>"; };
 		177A4EE029AA44CA006060E4 /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
@@ -189,6 +187,8 @@
 		17CD7ED329A65A17003D78D9 /* SkyFall AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SkyFall AlertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CD7ED729A65A17003D78D9 /* SkyFall_AlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFall_AlertUITests.swift; sourceTree = "<group>"; };
 		17CD7ED929A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFall_AlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataControllerType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,8 +287,8 @@
 		1748868529AA1BC9009634C0 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				1748868F29AA1D81009634C0 /* DataControllerType.swift */,
-				1748869329AA1DC7009634C0 /* ViewModelType.swift */,
+				17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */,
+				17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -552,6 +552,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				177A4F0029AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */,
+				17EBAA0529ACCC3B00535D2C /* DataControllerType.swift in Sources */,
 				177A4EF829AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */,
 				177A4EF429AA69DD006060E4 /* DetailMeteoriteModelController.swift in Sources */,
 				1748863029A8D230009634C0 /* NetworkingService.swift in Sources */,
@@ -581,14 +582,13 @@
 				177A4F0C29AB6A70006060E4 /* NavigationController.swift in Sources */,
 				177A4F2329AB7FBB006060E4 /* SettingsDataController.swift in Sources */,
 				1748865929AA0F45009634C0 /* MapInitialData.swift in Sources */,
-				1748869029AA1D81009634C0 /* DataControllerType.swift in Sources */,
 				177A4F1729AB7F80006060E4 /* SettingsInitialData.swift in Sources */,
 				177A4EE629AA5675006060E4 /* Coordinator.swift in Sources */,
 				177A4EDC29AA2A26006060E4 /* MeteorMapper.swift in Sources */,
+				17EBAA0229ACCC3B00535D2C /* ViewModelType.swift in Sources */,
 				1748863D29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
 				1748863429A8D4B8009634C0 /* ApiEndpoint.swift in Sources */,
 				1748865F29AA0F45009634C0 /* MapViewController.swift in Sources */,
-				1748869429AA1DC7009634C0 /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +604,7 @@
 				1748863129A8D230009634C0 /* NetworkingService.swift in Sources */,
 				177A4F0D29AB6A70006060E4 /* NavigationController.swift in Sources */,
 				177A4EFD29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */,
+				17EBAA0329ACCC3B00535D2C /* ViewModelType.swift in Sources */,
 				177A4F1829AB7F80006060E4 /* SettingsInitialData.swift in Sources */,
 				1748865729AA0F45009634C0 /* MapDataController.swift in Sources */,
 				177A4EDD29AA2A26006060E4 /* MeteorMapper.swift in Sources */,
@@ -626,13 +627,12 @@
 				177A4F2029AB7FA8006060E4 /* SettingsViewModel.swift in Sources */,
 				1748863529A8D4B8009634C0 /* ApiEndpoint.swift in Sources */,
 				177A4F0929AA9F11006060E4 /* Extension+UITableViewCell.swift in Sources */,
-				1748869529AA1DC7009634C0 /* ViewModelType.swift in Sources */,
 				1748866029AA0F45009634C0 /* MapViewController.swift in Sources */,
 				177A4EF929AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */,
 				177A4F0529AA9C28006060E4 /* DetailMeteoriteCell.swift in Sources */,
-				1748869129AA1D81009634C0 /* DataControllerType.swift in Sources */,
 				177A4EE729AA5675006060E4 /* Coordinator.swift in Sources */,
 				177A4F3029ABA544006060E4 /* SliderView.swift in Sources */,
+				17EBAA0629ACCC3B00535D2C /* DataControllerType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,6 +641,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				177A4F0229AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */,
+				17EBAA0729ACCC3B00535D2C /* DataControllerType.swift in Sources */,
 				177A4EFA29AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */,
 				177A4EF629AA69DD006060E4 /* DetailMeteoriteModelController.swift in Sources */,
 				177A4EE329AA44CA006060E4 /* Extension+UIImage.swift in Sources */,
@@ -651,7 +652,6 @@
 				177A4F1529AB784B006060E4 /* SettingsViewController.swift in Sources */,
 				177A4EDE29AA2A26006060E4 /* MeteorMapper.swift in Sources */,
 				177A4F0629AA9C28006060E4 /* DetailMeteoriteCell.swift in Sources */,
-				1748869229AA1D81009634C0 /* DataControllerType.swift in Sources */,
 				17CD7EDA29A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift in Sources */,
 				177A4F1D29AB7F94006060E4 /* SettingsModelController.swift in Sources */,
 				177A4EE829AA5675006060E4 /* Coordinator.swift in Sources */,
@@ -664,7 +664,6 @@
 				177A4F2129AB7FA8006060E4 /* SettingsViewModel.swift in Sources */,
 				17CD7ED829A65A17003D78D9 /* SkyFall_AlertUITests.swift in Sources */,
 				1748866429AA0F45009634C0 /* MapModelController.swift in Sources */,
-				1748869629AA1DC7009634C0 /* ViewModelType.swift in Sources */,
 				1748863229A8D230009634C0 /* NetworkingService.swift in Sources */,
 				177A4F2929AB7FCC006060E4 /* SettingsFactory.swift in Sources */,
 				177A4F3129ABA544006060E4 /* SliderView.swift in Sources */,
@@ -675,6 +674,7 @@
 				177A4F1929AB7F80006060E4 /* SettingsInitialData.swift in Sources */,
 				1748863629A8D4B8009634C0 /* ApiEndpoint.swift in Sources */,
 				1748865B29AA0F45009634C0 /* MapInitialData.swift in Sources */,
+				17EBAA0429ACCC3B00535D2C /* ViewModelType.swift in Sources */,
 				1748865E29AA0F45009634C0 /* MapViewModel.swift in Sources */,
 				1748863F29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
 				1748866129AA0F45009634C0 /* MapViewController.swift in Sources */,
