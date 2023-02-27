@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 enum ApiError: Error {
     case unknownError
     case apiError(messageValue: String, status: Int)

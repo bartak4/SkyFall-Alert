@@ -34,7 +34,5 @@ extension MeteorMapper: MeteorMapperType {
         }
         .filter({ $0.mass != 0 })
         .filter({ $0.year != 0 })
-        
-        
     }
 }

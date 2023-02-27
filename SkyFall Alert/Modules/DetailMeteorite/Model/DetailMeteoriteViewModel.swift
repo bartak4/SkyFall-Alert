@@ -17,7 +17,6 @@ final class DetailMeteoriteViewModel {
     
     private func getFormattedMass(mass: Int) -> String {
         "\(mass.formattedWithSeparator) g"
-        
     }
     
     private func prepareCellsViewModel(meteorite: Meteorite) -> [DetailMeteoriteCellViewModel] {

@@ -29,7 +29,6 @@ class Meteorite: NSObject, MKAnnotation {
         guard let name = name else {
             return nil
         }
-        
         let addressDict = [CNPostalAddressStreetKey: coordinate]
         let placemark = MKPlacemark(
             coordinate: coordinate,
@@ -77,7 +76,6 @@ class MeteorView: MKAnnotationView {
             let mapsButton = UIButton(type: .detailDisclosure)
             rightCalloutAccessoryView = mapsButton
             image = meteor.image.resize(width: 20, height: 20)
-            
             
             let detailLabel = UILabel()
             detailLabel.numberOfLines = 0

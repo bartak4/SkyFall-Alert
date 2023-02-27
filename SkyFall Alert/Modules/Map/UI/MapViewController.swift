@@ -29,7 +29,6 @@ final class MapViewController: UIViewController {
         setupUI()
         setUpMapView()
         mapView.delegate = self
-        navigationController?.navigationBar.isHidden = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -67,6 +66,7 @@ final class MapViewController: UIViewController {
         settingsButton.layer.cornerRadius = 21
         settingsButton.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         settingsButton.addTarget(self, action: #selector(didTapSettings), for: .touchUpInside)
+        
         resultLabel.textColor = .white
         resultLabel.backgroundColor = .gray.withAlphaComponent(0.7)
         resultLabel.layer.cornerRadius = 21
@@ -102,7 +102,6 @@ final class MapViewController: UIViewController {
         mapView.register(
             MeteorView.self,
             forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
-        
     }
 }
 

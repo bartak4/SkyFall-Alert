@@ -105,7 +105,6 @@ extension SettingsViewController: SettingsViewType {
         settingsTitle.text = viewModel.title
         massSliderValue = viewModel.currentFilterMass
         yearsSliderValue = viewModel.currentFilterYears
-        
         sliderMassView.setup(SliderViewModel(min: viewModel.massMin, max: viewModel.massMax, title: viewModel.massTitle, type: .mass, presentValue: viewModel.currentFilterMass, valueHandler: {value in self.massSliderValue = value}))
         sliderYaerView.setup(SliderViewModel(min: viewModel.minYear, max: viewModel.maxYear, title: viewModel.yearTitle, type: .years, presentValue: viewModel.currentFilterYears, valueHandler: {value in self.yearsSliderValue = value}))
     }
