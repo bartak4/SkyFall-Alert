@@ -53,23 +53,18 @@ final class MapViewController: UIViewController {
         
         mapView.showsUserLocation = true
         mapView.translatesAutoresizingMaskIntoConstraints = false
-
-        mainButton.setTitleColor(.white, for: .normal)
-        mainButton.backgroundColor = .gray.withAlphaComponent(0.7)
-        mainButton.layer.cornerRadius = 21
-        mainButton.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        
+        mainButton.setDefaultButtonStyle()
         mainButton.addTarget(self, action: #selector(didTapMainButton), for: .touchUpInside)
 
         settingsButton.setImage(UIImage(systemName: "gear")?.withTintColor(.white, renderingMode: .alwaysOriginal), for: .normal)
         settingsButton.setTitleColor(.white, for: .normal)
-        settingsButton.backgroundColor = .gray.withAlphaComponent(0.7)
-        settingsButton.layer.cornerRadius = 21
-        settingsButton.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        settingsButton.setDefaultButtonStyle()
         settingsButton.addTarget(self, action: #selector(didTapSettings), for: .touchUpInside)
         
         resultLabel.textColor = .white
         resultLabel.backgroundColor = .gray.withAlphaComponent(0.7)
-        resultLabel.layer.cornerRadius = 21
+        resultLabel.layer.cornerRadius = 20
         resultLabel.layer.masksToBounds = true
 
         mainButton.snp.makeConstraints { make in
@@ -89,7 +84,7 @@ final class MapViewController: UIViewController {
         resultLabel.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.centerY.equalTo(settingsButton)
-            make.height.equalTo(42)
+            make.height.equalTo(settingsButton.snp.height)
         }
     }
     

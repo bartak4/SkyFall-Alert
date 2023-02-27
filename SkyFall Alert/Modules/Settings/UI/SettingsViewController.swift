@@ -79,10 +79,7 @@ final class SettingsViewController: UIViewController {
         view.backgroundColor = .white
         settingsTitle.font = .systemFont(ofSize: 30)
         settingsTitle.textColor = .black
-        confirmButton.setTitleColor(.white, for: .normal)
-        confirmButton.backgroundColor = .gray.withAlphaComponent(0.7)
-        confirmButton.layer.cornerRadius = 21
-        confirmButton.contentEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        confirmButton.setDefaultButtonStyle()
         confirmButton.addTarget(self, action: #selector(didTapConfirm), for: .touchUpInside)
     }
     
