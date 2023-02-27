@@ -7,10 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1748863029A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
+		1748863129A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
+		1748863229A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
+		1748863429A8D4B8009634C0 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748863329A8D4B8009634C0 /* ApiEndpoint.swift */; };
+		1748863529A8D4B8009634C0 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748863329A8D4B8009634C0 /* ApiEndpoint.swift */; };
+		1748863629A8D4B8009634C0 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748863329A8D4B8009634C0 /* ApiEndpoint.swift */; };
+		1748863D29A93712009634C0 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748863C29A93712009634C0 /* HTTPStatusCode.swift */; };
+		1748863E29A93712009634C0 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748863C29A93712009634C0 /* HTTPStatusCode.swift */; };
+		1748863F29A93712009634C0 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748863C29A93712009634C0 /* HTTPStatusCode.swift */; };
+		1748864129A93867009634C0 /* NetworkingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748864029A93867009634C0 /* NetworkingHeader.swift */; };
+		1748864229A93867009634C0 /* NetworkingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748864029A93867009634C0 /* NetworkingHeader.swift */; };
+		1748864329A93867009634C0 /* NetworkingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748864029A93867009634C0 /* NetworkingHeader.swift */; };
+		1748864529A938A9009634C0 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748864429A938A9009634C0 /* ApiError.swift */; };
+		1748864629A938A9009634C0 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748864429A938A9009634C0 /* ApiError.swift */; };
+		1748864729A938A9009634C0 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748864429A938A9009634C0 /* ApiError.swift */; };
+		1748864929A938ED009634C0 /* APIAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748864829A938ED009634C0 /* APIAuthorization.swift */; };
+		1748864A29A938ED009634C0 /* APIAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748864829A938ED009634C0 /* APIAuthorization.swift */; };
+		1748864B29A938ED009634C0 /* APIAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748864829A938ED009634C0 /* APIAuthorization.swift */; };
+		1748865629AA0F45009634C0 /* MapDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865029AA0F45009634C0 /* MapDataController.swift */; };
+		1748865729AA0F45009634C0 /* MapDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865029AA0F45009634C0 /* MapDataController.swift */; };
+		1748865829AA0F45009634C0 /* MapDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865029AA0F45009634C0 /* MapDataController.swift */; };
+		1748865929AA0F45009634C0 /* MapInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865129AA0F45009634C0 /* MapInitialData.swift */; };
+		1748865A29AA0F45009634C0 /* MapInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865129AA0F45009634C0 /* MapInitialData.swift */; };
+		1748865B29AA0F45009634C0 /* MapInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865129AA0F45009634C0 /* MapInitialData.swift */; };
+		1748865C29AA0F45009634C0 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865229AA0F45009634C0 /* MapViewModel.swift */; };
+		1748865D29AA0F45009634C0 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865229AA0F45009634C0 /* MapViewModel.swift */; };
+		1748865E29AA0F45009634C0 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865229AA0F45009634C0 /* MapViewModel.swift */; };
+		1748865F29AA0F45009634C0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865329AA0F45009634C0 /* MapViewController.swift */; };
+		1748866029AA0F45009634C0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865329AA0F45009634C0 /* MapViewController.swift */; };
+		1748866129AA0F45009634C0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865329AA0F45009634C0 /* MapViewController.swift */; };
+		1748866229AA0F45009634C0 /* MapModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865429AA0F45009634C0 /* MapModelController.swift */; };
+		1748866329AA0F45009634C0 /* MapModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865429AA0F45009634C0 /* MapModelController.swift */; };
+		1748866429AA0F45009634C0 /* MapModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865429AA0F45009634C0 /* MapModelController.swift */; };
+		1748866529AA0F45009634C0 /* MapFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865529AA0F45009634C0 /* MapFactory.swift */; };
+		1748866629AA0F45009634C0 /* MapFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865529AA0F45009634C0 /* MapFactory.swift */; };
+		1748866729AA0F45009634C0 /* MapFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748865529AA0F45009634C0 /* MapFactory.swift */; };
+		1748869029AA1D81009634C0 /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748868F29AA1D81009634C0 /* DataControllerType.swift */; };
+		1748869129AA1D81009634C0 /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748868F29AA1D81009634C0 /* DataControllerType.swift */; };
+		1748869229AA1D81009634C0 /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748868F29AA1D81009634C0 /* DataControllerType.swift */; };
+		1748869429AA1DC7009634C0 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748869329AA1DC7009634C0 /* ViewModelType.swift */; };
+		1748869529AA1DC7009634C0 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748869329AA1DC7009634C0 /* ViewModelType.swift */; };
+		1748869629AA1DC7009634C0 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748869329AA1DC7009634C0 /* ViewModelType.swift */; };
+		177A4ED829AA28CF006060E4 /* MeteorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4ED729AA28CF006060E4 /* MeteorResponse.swift */; };
+		177A4ED929AA28CF006060E4 /* MeteorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4ED729AA28CF006060E4 /* MeteorResponse.swift */; };
+		177A4EDA29AA28CF006060E4 /* MeteorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4ED729AA28CF006060E4 /* MeteorResponse.swift */; };
+		177A4EDC29AA2A26006060E4 /* MeteorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EDB29AA2A26006060E4 /* MeteorMapper.swift */; };
+		177A4EDD29AA2A26006060E4 /* MeteorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EDB29AA2A26006060E4 /* MeteorMapper.swift */; };
+		177A4EDE29AA2A26006060E4 /* MeteorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EDB29AA2A26006060E4 /* MeteorMapper.swift */; };
+		177A4EE129AA44CA006060E4 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EE029AA44CA006060E4 /* Extension+UIImage.swift */; };
+		177A4EE229AA44CA006060E4 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EE029AA44CA006060E4 /* Extension+UIImage.swift */; };
+		177A4EE329AA44CA006060E4 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EE029AA44CA006060E4 /* Extension+UIImage.swift */; };
+		177A4EE629AA5675006060E4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EE529AA5675006060E4 /* Coordinator.swift */; };
+		177A4EE729AA5675006060E4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EE529AA5675006060E4 /* Coordinator.swift */; };
+		177A4EE829AA5675006060E4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EE529AA5675006060E4 /* Coordinator.swift */; };
+		177A4EEC29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EEB29AA6869006060E4 /* DetailMeteoriteViewController.swift */; };
+		177A4EED29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EEB29AA6869006060E4 /* DetailMeteoriteViewController.swift */; };
+		177A4EEE29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EEB29AA6869006060E4 /* DetailMeteoriteViewController.swift */; };
+		177A4EF029AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EEF29AA694D006060E4 /* DetailMeteoriteInitialData.swift */; };
+		177A4EF129AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EEF29AA694D006060E4 /* DetailMeteoriteInitialData.swift */; };
+		177A4EF229AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EEF29AA694D006060E4 /* DetailMeteoriteInitialData.swift */; };
+		177A4EF429AA69DD006060E4 /* DetailMeteoriteModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EF329AA69DD006060E4 /* DetailMeteoriteModelController.swift */; };
+		177A4EF529AA69DD006060E4 /* DetailMeteoriteModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EF329AA69DD006060E4 /* DetailMeteoriteModelController.swift */; };
+		177A4EF629AA69DD006060E4 /* DetailMeteoriteModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EF329AA69DD006060E4 /* DetailMeteoriteModelController.swift */; };
+		177A4EF829AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EF729AA6A70006060E4 /* DetailMeteoriteViewModel.swift */; };
+		177A4EF929AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EF729AA6A70006060E4 /* DetailMeteoriteViewModel.swift */; };
+		177A4EFA29AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EF729AA6A70006060E4 /* DetailMeteoriteViewModel.swift */; };
+		177A4EFC29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EFB29AA6B07006060E4 /* DetailMeteoriteDataController.swift */; };
+		177A4EFD29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EFB29AA6B07006060E4 /* DetailMeteoriteDataController.swift */; };
+		177A4EFE29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EFB29AA6B07006060E4 /* DetailMeteoriteDataController.swift */; };
+		177A4F0029AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EFF29AA6B98006060E4 /* DetailMeteoriteFactory.swift */; };
+		177A4F0129AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EFF29AA6B98006060E4 /* DetailMeteoriteFactory.swift */; };
+		177A4F0229AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4EFF29AA6B98006060E4 /* DetailMeteoriteFactory.swift */; };
+		177A4F0429AA9C28006060E4 /* DetailMeteoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F0329AA9C28006060E4 /* DetailMeteoriteCell.swift */; };
+		177A4F0529AA9C28006060E4 /* DetailMeteoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F0329AA9C28006060E4 /* DetailMeteoriteCell.swift */; };
+		177A4F0629AA9C28006060E4 /* DetailMeteoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F0329AA9C28006060E4 /* DetailMeteoriteCell.swift */; };
+		177A4F0829AA9F11006060E4 /* Extension+UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F0729AA9F11006060E4 /* Extension+UITableViewCell.swift */; };
+		177A4F0929AA9F11006060E4 /* Extension+UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F0729AA9F11006060E4 /* Extension+UITableViewCell.swift */; };
+		177A4F0A29AA9F11006060E4 /* Extension+UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F0729AA9F11006060E4 /* Extension+UITableViewCell.swift */; };
+		177A4F0C29AB6A70006060E4 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F0B29AB6A70006060E4 /* NavigationController.swift */; };
+		177A4F0D29AB6A70006060E4 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F0B29AB6A70006060E4 /* NavigationController.swift */; };
+		177A4F0E29AB6A70006060E4 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F0B29AB6A70006060E4 /* NavigationController.swift */; };
+		177A4F1329AB784B006060E4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1229AB784B006060E4 /* SettingsViewController.swift */; };
+		177A4F1429AB784B006060E4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1229AB784B006060E4 /* SettingsViewController.swift */; };
+		177A4F1529AB784B006060E4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1229AB784B006060E4 /* SettingsViewController.swift */; };
+		177A4F1729AB7F80006060E4 /* SettingsInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1629AB7F80006060E4 /* SettingsInitialData.swift */; };
+		177A4F1829AB7F80006060E4 /* SettingsInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1629AB7F80006060E4 /* SettingsInitialData.swift */; };
+		177A4F1929AB7F80006060E4 /* SettingsInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1629AB7F80006060E4 /* SettingsInitialData.swift */; };
+		177A4F1B29AB7F94006060E4 /* SettingsModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1A29AB7F94006060E4 /* SettingsModelController.swift */; };
+		177A4F1C29AB7F94006060E4 /* SettingsModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1A29AB7F94006060E4 /* SettingsModelController.swift */; };
+		177A4F1D29AB7F94006060E4 /* SettingsModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1A29AB7F94006060E4 /* SettingsModelController.swift */; };
+		177A4F1F29AB7FA8006060E4 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1E29AB7FA8006060E4 /* SettingsViewModel.swift */; };
+		177A4F2029AB7FA8006060E4 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1E29AB7FA8006060E4 /* SettingsViewModel.swift */; };
+		177A4F2129AB7FA8006060E4 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F1E29AB7FA8006060E4 /* SettingsViewModel.swift */; };
+		177A4F2329AB7FBB006060E4 /* SettingsDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F2229AB7FBB006060E4 /* SettingsDataController.swift */; };
+		177A4F2429AB7FBB006060E4 /* SettingsDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F2229AB7FBB006060E4 /* SettingsDataController.swift */; };
+		177A4F2529AB7FBB006060E4 /* SettingsDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F2229AB7FBB006060E4 /* SettingsDataController.swift */; };
+		177A4F2729AB7FCC006060E4 /* SettingsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F2629AB7FCC006060E4 /* SettingsFactory.swift */; };
+		177A4F2829AB7FCC006060E4 /* SettingsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F2629AB7FCC006060E4 /* SettingsFactory.swift */; };
+		177A4F2929AB7FCC006060E4 /* SettingsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F2629AB7FCC006060E4 /* SettingsFactory.swift */; };
+		177A4F2F29ABA544006060E4 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F2E29ABA544006060E4 /* SliderView.swift */; };
+		177A4F3029ABA544006060E4 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F2E29ABA544006060E4 /* SliderView.swift */; };
+		177A4F3129ABA544006060E4 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F2E29ABA544006060E4 /* SliderView.swift */; };
+		177A4F3329AC9ED4006060E4 /* VoidResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F3229AC9ED4006060E4 /* VoidResponse.swift */; };
+		177A4F3429AC9ED4006060E4 /* VoidResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F3229AC9ED4006060E4 /* VoidResponse.swift */; };
+		177A4F3529AC9ED4006060E4 /* VoidResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A4F3229AC9ED4006060E4 /* VoidResponse.swift */; };
+		17B97B3C29A76B6500461873 /* Meteorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B97B3B29A76B6500461873 /* Meteorite.swift */; };
+		17B97B3D29A76B6500461873 /* Meteorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B97B3B29A76B6500461873 /* Meteorite.swift */; };
+		17B97B3E29A76B6500461873 /* Meteorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B97B3B29A76B6500461873 /* Meteorite.swift */; };
 		17CD7EB729A65A16003D78D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7EB629A65A16003D78D9 /* AppDelegate.swift */; };
 		17CD7EB929A65A16003D78D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7EB829A65A16003D78D9 /* SceneDelegate.swift */; };
-		17CD7EBB29A65A16003D78D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7EBA29A65A16003D78D9 /* ViewController.swift */; };
-		17CD7EBE29A65A16003D78D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CD7EBC29A65A16003D78D9 /* Main.storyboard */; };
 		17CD7EC029A65A17003D78D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CD7EBF29A65A17003D78D9 /* Assets.xcassets */; };
 		17CD7EC329A65A17003D78D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CD7EC129A65A17003D78D9 /* LaunchScreen.storyboard */; };
 		17CD7ECE29A65A17003D78D9 /* SkyFall_AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7ECD29A65A17003D78D9 /* SkyFall_AlertTests.swift */; };
@@ -36,11 +142,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1748862F29A8D230009634C0 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		1748863329A8D4B8009634C0 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		1748863C29A93712009634C0 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		1748864029A93867009634C0 /* NetworkingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingHeader.swift; sourceTree = "<group>"; };
+		1748864429A938A9009634C0 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		1748864829A938ED009634C0 /* APIAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAuthorization.swift; sourceTree = "<group>"; };
+		1748865029AA0F45009634C0 /* MapDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataController.swift; sourceTree = "<group>"; };
+		1748865129AA0F45009634C0 /* MapInitialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInitialData.swift; sourceTree = "<group>"; };
+		1748865229AA0F45009634C0 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		1748865329AA0F45009634C0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1748865429AA0F45009634C0 /* MapModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModelController.swift; sourceTree = "<group>"; };
+		1748865529AA0F45009634C0 /* MapFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFactory.swift; sourceTree = "<group>"; };
+		1748868F29AA1D81009634C0 /* DataControllerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataControllerType.swift; path = ../../../../../../DataControllerType.swift; sourceTree = "<group>"; };
+		1748869329AA1DC7009634C0 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewModelType.swift; path = ../../../../../../ViewModelType.swift; sourceTree = "<group>"; };
+		177A4ED729AA28CF006060E4 /* MeteorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorResponse.swift; sourceTree = "<group>"; };
+		177A4EDB29AA2A26006060E4 /* MeteorMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorMapper.swift; sourceTree = "<group>"; };
+		177A4EE029AA44CA006060E4 /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		177A4EE529AA5675006060E4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		177A4EEB29AA6869006060E4 /* DetailMeteoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMeteoriteViewController.swift; sourceTree = "<group>"; };
+		177A4EEF29AA694D006060E4 /* DetailMeteoriteInitialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMeteoriteInitialData.swift; sourceTree = "<group>"; };
+		177A4EF329AA69DD006060E4 /* DetailMeteoriteModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMeteoriteModelController.swift; sourceTree = "<group>"; };
+		177A4EF729AA6A70006060E4 /* DetailMeteoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMeteoriteViewModel.swift; sourceTree = "<group>"; };
+		177A4EFB29AA6B07006060E4 /* DetailMeteoriteDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMeteoriteDataController.swift; sourceTree = "<group>"; };
+		177A4EFF29AA6B98006060E4 /* DetailMeteoriteFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMeteoriteFactory.swift; sourceTree = "<group>"; };
+		177A4F0329AA9C28006060E4 /* DetailMeteoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMeteoriteCell.swift; sourceTree = "<group>"; };
+		177A4F0729AA9F11006060E4 /* Extension+UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UITableViewCell.swift"; sourceTree = "<group>"; };
+		177A4F0B29AB6A70006060E4 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		177A4F1229AB784B006060E4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		177A4F1629AB7F80006060E4 /* SettingsInitialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInitialData.swift; sourceTree = "<group>"; };
+		177A4F1A29AB7F94006060E4 /* SettingsModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModelController.swift; sourceTree = "<group>"; };
+		177A4F1E29AB7FA8006060E4 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		177A4F2229AB7FBB006060E4 /* SettingsDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDataController.swift; sourceTree = "<group>"; };
+		177A4F2629AB7FCC006060E4 /* SettingsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFactory.swift; sourceTree = "<group>"; };
+		177A4F2E29ABA544006060E4 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		177A4F3229AC9ED4006060E4 /* VoidResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoidResponse.swift; sourceTree = "<group>"; };
+		17B97B3B29A76B6500461873 /* Meteorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteorite.swift; sourceTree = "<group>"; };
 		17CD7EB329A65A16003D78D9 /* SkyFall Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkyFall Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CD7EB629A65A16003D78D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17CD7EB829A65A16003D78D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17CD7EBA29A65A16003D78D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		17CD7EBD29A65A16003D78D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17CD7EBF29A65A17003D78D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17CD7EC229A65A17003D78D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17CD7EC429A65A17003D78D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +216,149 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1748863729A8D4C3009634C0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1748862F29A8D230009634C0 /* NetworkingService.swift */,
+				177A4ED729AA28CF006060E4 /* MeteorResponse.swift */,
+				1748864029A93867009634C0 /* NetworkingHeader.swift */,
+				1748863C29A93712009634C0 /* HTTPStatusCode.swift */,
+				1748863329A8D4B8009634C0 /* ApiEndpoint.swift */,
+				1748864829A938ED009634C0 /* APIAuthorization.swift */,
+				1748864429A938A9009634C0 /* ApiError.swift */,
+				177A4F3229AC9ED4006060E4 /* VoidResponse.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1748866829AA0F6C009634C0 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				1748866A29AA138B009634C0 /* UI */,
+				1748866929AA136D009634C0 /* Model */,
+				1748865029AA0F45009634C0 /* MapDataController.swift */,
+				1748865529AA0F45009634C0 /* MapFactory.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		1748866929AA136D009634C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1748865129AA0F45009634C0 /* MapInitialData.swift */,
+				1748865429AA0F45009634C0 /* MapModelController.swift */,
+				177A4EDB29AA2A26006060E4 /* MeteorMapper.swift */,
+				1748865229AA0F45009634C0 /* MapViewModel.swift */,
+				17B97B3B29A76B6500461873 /* Meteorite.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1748866A29AA138B009634C0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1748865329AA0F45009634C0 /* MapViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1748866B29AA13EE009634C0 /* DetailMeteorite */ = {
+			isa = PBXGroup;
+			children = (
+				177A4EE929AA67F5006060E4 /* UI */,
+				177A4EEA29AA6801006060E4 /* Model */,
+				177A4EFB29AA6B07006060E4 /* DetailMeteoriteDataController.swift */,
+				177A4EFF29AA6B98006060E4 /* DetailMeteoriteFactory.swift */,
+			);
+			path = DetailMeteorite;
+			sourceTree = "<group>";
+		};
+		1748868429AA1BAE009634C0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				177A4F1029AB7802006060E4 /* UI */,
+				177A4F1129AB7809006060E4 /* Model */,
+				177A4F2229AB7FBB006060E4 /* SettingsDataController.swift */,
+				177A4F2629AB7FCC006060E4 /* SettingsFactory.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1748868529AA1BC9009634C0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1748868F29AA1D81009634C0 /* DataControllerType.swift */,
+				1748869329AA1DC7009634C0 /* ViewModelType.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		177A4EDF29AA448D006060E4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				177A4EE029AA44CA006060E4 /* Extension+UIImage.swift */,
+				177A4F0729AA9F11006060E4 /* Extension+UITableViewCell.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		177A4EE429AA5662006060E4 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				177A4EE529AA5675006060E4 /* Coordinator.swift */,
+				177A4F0B29AB6A70006060E4 /* NavigationController.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		177A4EE929AA67F5006060E4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				177A4EEB29AA6869006060E4 /* DetailMeteoriteViewController.swift */,
+				177A4F0329AA9C28006060E4 /* DetailMeteoriteCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		177A4EEA29AA6801006060E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				177A4EEF29AA694D006060E4 /* DetailMeteoriteInitialData.swift */,
+				177A4EF329AA69DD006060E4 /* DetailMeteoriteModelController.swift */,
+				177A4EF729AA6A70006060E4 /* DetailMeteoriteViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		177A4F0F29AB6D4D006060E4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1748866829AA0F6C009634C0 /* Map */,
+				1748866B29AA13EE009634C0 /* DetailMeteorite */,
+				1748868429AA1BAE009634C0 /* Settings */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		177A4F1029AB7802006060E4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				177A4F1229AB784B006060E4 /* SettingsViewController.swift */,
+				177A4F2E29ABA544006060E4 /* SliderView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		177A4F1129AB7809006060E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				177A4F1629AB7F80006060E4 /* SettingsInitialData.swift */,
+				177A4F1A29AB7F94006060E4 /* SettingsModelController.swift */,
+				177A4F1E29AB7FA8006060E4 /* SettingsViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		17CD7EAA29A65A16003D78D9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +366,7 @@
 				17CD7ECC29A65A17003D78D9 /* SkyFall AlertTests */,
 				17CD7ED629A65A17003D78D9 /* SkyFall AlertUITests */,
 				17CD7EB429A65A16003D78D9 /* Products */,
+				BE2704B58E8DC1FBAC9FDC65 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +385,11 @@
 			children = (
 				17CD7EB629A65A16003D78D9 /* AppDelegate.swift */,
 				17CD7EB829A65A16003D78D9 /* SceneDelegate.swift */,
-				17CD7EBA29A65A16003D78D9 /* ViewController.swift */,
-				17CD7EBC29A65A16003D78D9 /* Main.storyboard */,
+				1748868529AA1BC9009634C0 /* Components */,
+				177A4EE429AA5662006060E4 /* Coordinator */,
+				177A4F0F29AB6D4D006060E4 /* Modules */,
+				1748863729A8D4C3009634C0 /* Networking */,
+				177A4EDF29AA448D006060E4 /* Extensions */,
 				17CD7EBF29A65A17003D78D9 /* Assets.xcassets */,
 				17CD7EC129A65A17003D78D9 /* LaunchScreen.storyboard */,
 				17CD7EC429A65A17003D78D9 /* Info.plist */,
@@ -125,6 +412,13 @@
 				17CD7ED929A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift */,
 			);
 			path = "SkyFall AlertUITests";
+			sourceTree = "<group>";
+		};
+		BE2704B58E8DC1FBAC9FDC65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +527,6 @@
 			files = (
 				17CD7EC329A65A17003D78D9 /* LaunchScreen.storyboard in Resources */,
 				17CD7EC029A65A17003D78D9 /* Assets.xcassets in Resources */,
-				17CD7EBE29A65A16003D78D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +551,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17CD7EBB29A65A16003D78D9 /* ViewController.swift in Sources */,
+				177A4F0029AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */,
+				177A4EF829AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */,
+				177A4EF429AA69DD006060E4 /* DetailMeteoriteModelController.swift in Sources */,
+				1748863029A8D230009634C0 /* NetworkingService.swift in Sources */,
+				177A4EE129AA44CA006060E4 /* Extension+UIImage.swift in Sources */,
+				177A4F0829AA9F11006060E4 /* Extension+UITableViewCell.swift in Sources */,
+				177A4F3329AC9ED4006060E4 /* VoidResponse.swift in Sources */,
+				1748864929A938ED009634C0 /* APIAuthorization.swift in Sources */,
+				177A4F1329AB784B006060E4 /* SettingsViewController.swift in Sources */,
+				177A4ED829AA28CF006060E4 /* MeteorResponse.swift in Sources */,
+				177A4F0429AA9C28006060E4 /* DetailMeteoriteCell.swift in Sources */,
+				17B97B3C29A76B6500461873 /* Meteorite.swift in Sources */,
+				1748864529A938A9009634C0 /* ApiError.swift in Sources */,
+				177A4F1B29AB7F94006060E4 /* SettingsModelController.swift in Sources */,
+				1748864129A93867009634C0 /* NetworkingHeader.swift in Sources */,
+				177A4EEC29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */,
+				177A4EF029AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */,
+				1748866229AA0F45009634C0 /* MapModelController.swift in Sources */,
+				1748866529AA0F45009634C0 /* MapFactory.swift in Sources */,
+				177A4EFC29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */,
+				177A4F1F29AB7FA8006060E4 /* SettingsViewModel.swift in Sources */,
 				17CD7EB729A65A16003D78D9 /* AppDelegate.swift in Sources */,
+				1748865629AA0F45009634C0 /* MapDataController.swift in Sources */,
 				17CD7EB929A65A16003D78D9 /* SceneDelegate.swift in Sources */,
+				1748865C29AA0F45009634C0 /* MapViewModel.swift in Sources */,
+				177A4F2729AB7FCC006060E4 /* SettingsFactory.swift in Sources */,
+				177A4F2F29ABA544006060E4 /* SliderView.swift in Sources */,
+				177A4F0C29AB6A70006060E4 /* NavigationController.swift in Sources */,
+				177A4F2329AB7FBB006060E4 /* SettingsDataController.swift in Sources */,
+				1748865929AA0F45009634C0 /* MapInitialData.swift in Sources */,
+				1748869029AA1D81009634C0 /* DataControllerType.swift in Sources */,
+				177A4F1729AB7F80006060E4 /* SettingsInitialData.swift in Sources */,
+				177A4EE629AA5675006060E4 /* Coordinator.swift in Sources */,
+				177A4EDC29AA2A26006060E4 /* MeteorMapper.swift in Sources */,
+				1748863D29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
+				1748863429A8D4B8009634C0 /* ApiEndpoint.swift in Sources */,
+				1748865F29AA0F45009634C0 /* MapViewController.swift in Sources */,
+				1748869429AA1DC7009634C0 /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +596,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177A4ED929AA28CF006060E4 /* MeteorResponse.swift in Sources */,
+				177A4EED29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */,
+				1748866329AA0F45009634C0 /* MapModelController.swift in Sources */,
+				1748866629AA0F45009634C0 /* MapFactory.swift in Sources */,
+				1748863E29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
+				1748863129A8D230009634C0 /* NetworkingService.swift in Sources */,
+				177A4F0D29AB6A70006060E4 /* NavigationController.swift in Sources */,
+				177A4EFD29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */,
+				177A4F1829AB7F80006060E4 /* SettingsInitialData.swift in Sources */,
+				1748865729AA0F45009634C0 /* MapDataController.swift in Sources */,
+				177A4EDD29AA2A26006060E4 /* MeteorMapper.swift in Sources */,
+				1748865D29AA0F45009634C0 /* MapViewModel.swift in Sources */,
+				177A4F1C29AB7F94006060E4 /* SettingsModelController.swift in Sources */,
+				17B97B3D29A76B6500461873 /* Meteorite.swift in Sources */,
+				1748864229A93867009634C0 /* NetworkingHeader.swift in Sources */,
+				177A4EF129AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */,
+				177A4F0129AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */,
+				177A4EF529AA69DD006060E4 /* DetailMeteoriteModelController.swift in Sources */,
+				177A4EE229AA44CA006060E4 /* Extension+UIImage.swift in Sources */,
 				17CD7ECE29A65A17003D78D9 /* SkyFall_AlertTests.swift in Sources */,
+				177A4F2429AB7FBB006060E4 /* SettingsDataController.swift in Sources */,
+				1748864629A938A9009634C0 /* ApiError.swift in Sources */,
+				177A4F1429AB784B006060E4 /* SettingsViewController.swift in Sources */,
+				1748864A29A938ED009634C0 /* APIAuthorization.swift in Sources */,
+				177A4F2829AB7FCC006060E4 /* SettingsFactory.swift in Sources */,
+				177A4F3429AC9ED4006060E4 /* VoidResponse.swift in Sources */,
+				1748865A29AA0F45009634C0 /* MapInitialData.swift in Sources */,
+				177A4F2029AB7FA8006060E4 /* SettingsViewModel.swift in Sources */,
+				1748863529A8D4B8009634C0 /* ApiEndpoint.swift in Sources */,
+				177A4F0929AA9F11006060E4 /* Extension+UITableViewCell.swift in Sources */,
+				1748869529AA1DC7009634C0 /* ViewModelType.swift in Sources */,
+				1748866029AA0F45009634C0 /* MapViewController.swift in Sources */,
+				177A4EF929AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */,
+				177A4F0529AA9C28006060E4 /* DetailMeteoriteCell.swift in Sources */,
+				1748869129AA1D81009634C0 /* DataControllerType.swift in Sources */,
+				177A4EE729AA5675006060E4 /* Coordinator.swift in Sources */,
+				177A4F3029ABA544006060E4 /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +640,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177A4F0229AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */,
+				177A4EFA29AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */,
+				177A4EF629AA69DD006060E4 /* DetailMeteoriteModelController.swift in Sources */,
+				177A4EE329AA44CA006060E4 /* Extension+UIImage.swift in Sources */,
+				17B97B3E29A76B6500461873 /* Meteorite.swift in Sources */,
+				177A4F0A29AA9F11006060E4 /* Extension+UITableViewCell.swift in Sources */,
+				177A4F3529AC9ED4006060E4 /* VoidResponse.swift in Sources */,
+				177A4EDA29AA28CF006060E4 /* MeteorResponse.swift in Sources */,
+				177A4F1529AB784B006060E4 /* SettingsViewController.swift in Sources */,
+				177A4EDE29AA2A26006060E4 /* MeteorMapper.swift in Sources */,
+				177A4F0629AA9C28006060E4 /* DetailMeteoriteCell.swift in Sources */,
+				1748869229AA1D81009634C0 /* DataControllerType.swift in Sources */,
 				17CD7EDA29A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift in Sources */,
+				177A4F1D29AB7F94006060E4 /* SettingsModelController.swift in Sources */,
+				177A4EE829AA5675006060E4 /* Coordinator.swift in Sources */,
+				177A4EEE29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */,
+				177A4EF229AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */,
+				1748865829AA0F45009634C0 /* MapDataController.swift in Sources */,
+				1748864B29A938ED009634C0 /* APIAuthorization.swift in Sources */,
+				1748864329A93867009634C0 /* NetworkingHeader.swift in Sources */,
+				177A4EFE29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */,
+				177A4F2129AB7FA8006060E4 /* SettingsViewModel.swift in Sources */,
 				17CD7ED829A65A17003D78D9 /* SkyFall_AlertUITests.swift in Sources */,
+				1748866429AA0F45009634C0 /* MapModelController.swift in Sources */,
+				1748869629AA1DC7009634C0 /* ViewModelType.swift in Sources */,
+				1748863229A8D230009634C0 /* NetworkingService.swift in Sources */,
+				177A4F2929AB7FCC006060E4 /* SettingsFactory.swift in Sources */,
+				177A4F3129ABA544006060E4 /* SliderView.swift in Sources */,
+				177A4F0E29AB6A70006060E4 /* NavigationController.swift in Sources */,
+				177A4F2529AB7FBB006060E4 /* SettingsDataController.swift in Sources */,
+				1748866729AA0F45009634C0 /* MapFactory.swift in Sources */,
+				1748864729A938A9009634C0 /* ApiError.swift in Sources */,
+				177A4F1929AB7F80006060E4 /* SettingsInitialData.swift in Sources */,
+				1748863629A8D4B8009634C0 /* ApiEndpoint.swift in Sources */,
+				1748865B29AA0F45009634C0 /* MapInitialData.swift in Sources */,
+				1748865E29AA0F45009634C0 /* MapViewModel.swift in Sources */,
+				1748863F29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
+				1748866129AA0F45009634C0 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +697,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		17CD7EBC29A65A16003D78D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17CD7EBD29A65A16003D78D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		17CD7EC129A65A17003D78D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,6 +837,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +866,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
