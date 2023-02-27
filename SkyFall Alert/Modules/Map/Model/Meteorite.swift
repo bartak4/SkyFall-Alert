@@ -25,19 +25,6 @@ class Meteorite: NSObject, MKAnnotation {
         self.coordinate = coordinate
     }
     
-    var mapItem: MKMapItem? {
-        guard let name = name else {
-            return nil
-        }
-        let addressDict = [CNPostalAddressStreetKey: coordinate]
-        let placemark = MKPlacemark(
-            coordinate: coordinate,
-            addressDictionary: addressDict)
-        let mapItem = MKMapItem(placemark: placemark)
-        mapItem.name = name
-        return mapItem
-    }
-    
     var image: UIImage {
         switch mass {
             case 1...1000:

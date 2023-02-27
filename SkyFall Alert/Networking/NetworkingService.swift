@@ -15,7 +15,7 @@ protocol NetworkingServiceType {
 class NetworkingService {
     
     // MARK: - Decoder
-    lazy var jsonDecoder: JSONDecoder = {
+    private var jsonDecoder: JSONDecoder = {
         let decoder = JSONDecoder()
         return decoder
     }()
@@ -30,7 +30,7 @@ class NetworkingService {
         URL(string: endpoint.path)
     }
     
-    func request(endpoint: ApiEndpoint, returnType: MeteorResponse.Type, completion: @escaping (Swift.Result<[MeteorResponse], ApiError>) -> Void) {
+    private func request(endpoint: ApiEndpoint, returnType: MeteorResponse.Type, completion: @escaping (Swift.Result<[MeteorResponse], ApiError>) -> Void) {
         
         guard let path = createPath(for: endpoint) else {
             completion(.failure(.apiError(messageValue: "Create path failed", status: 4004)))

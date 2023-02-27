@@ -10,6 +10,18 @@
 		1712B71329AD0195001C900D /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71229AD0195001C900D /* Extension+UIButton.swift */; };
 		1712B71429AD0195001C900D /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71229AD0195001C900D /* Extension+UIButton.swift */; };
 		1712B71529AD0195001C900D /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71229AD0195001C900D /* Extension+UIButton.swift */; };
+		1712B71729AD136C001C900D /* Extension+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71629AD136C001C900D /* Extension+Formatter.swift */; };
+		1712B71829AD136C001C900D /* Extension+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71629AD136C001C900D /* Extension+Formatter.swift */; };
+		1712B71929AD136C001C900D /* Extension+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71629AD136C001C900D /* Extension+Formatter.swift */; };
+		1712B71B29AD13A4001C900D /* Extension+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71A29AD13A4001C900D /* Extension+Numeric.swift */; };
+		1712B71C29AD13A4001C900D /* Extension+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71A29AD13A4001C900D /* Extension+Numeric.swift */; };
+		1712B71D29AD13A4001C900D /* Extension+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71A29AD13A4001C900D /* Extension+Numeric.swift */; };
+		1712B71F29AD14F4001C900D /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71E29AD14F4001C900D /* ViewType.swift */; };
+		1712B72029AD14F4001C900D /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71E29AD14F4001C900D /* ViewType.swift */; };
+		1712B72129AD14F4001C900D /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B71E29AD14F4001C900D /* ViewType.swift */; };
+		1712B72329AD1537001C900D /* AlertViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72229AD1537001C900D /* AlertViewPresentable.swift */; };
+		1712B72429AD1537001C900D /* AlertViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72229AD1537001C900D /* AlertViewPresentable.swift */; };
+		1712B72529AD1537001C900D /* AlertViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72229AD1537001C900D /* AlertViewPresentable.swift */; };
 		1748863029A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
 		1748863129A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
 		1748863229A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
@@ -149,6 +161,10 @@
 
 /* Begin PBXFileReference section */
 		1712B71229AD0195001C900D /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
+		1712B71629AD136C001C900D /* Extension+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Formatter.swift"; sourceTree = "<group>"; };
+		1712B71A29AD13A4001C900D /* Extension+Numeric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Numeric.swift"; sourceTree = "<group>"; };
+		1712B71E29AD14F4001C900D /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		1712B72229AD1537001C900D /* AlertViewPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewPresentable.swift; sourceTree = "<group>"; };
 		1748862F29A8D230009634C0 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 		1748863329A8D4B8009634C0 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
 		1748863C29A93712009634C0 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
@@ -308,6 +324,8 @@
 			children = (
 				17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */,
 				17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */,
+				1712B71E29AD14F4001C900D /* ViewType.swift */,
+				1712B72229AD1537001C900D /* AlertViewPresentable.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -315,9 +333,11 @@
 		177A4EDF29AA448D006060E4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1712B71629AD136C001C900D /* Extension+Formatter.swift */,
 				177A4EE029AA44CA006060E4 /* Extension+UIImage.swift */,
 				177A4F0729AA9F11006060E4 /* Extension+UITableViewCell.swift */,
 				1712B71229AD0195001C900D /* Extension+UIButton.swift */,
+				1712B71A29AD13A4001C900D /* Extension+Numeric.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -696,6 +716,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1712B71F29AD14F4001C900D /* ViewType.swift in Sources */,
 				177A4F0029AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */,
 				17EBAA0529ACCC3B00535D2C /* DataControllerType.swift in Sources */,
 				177A4EF829AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */,
@@ -712,11 +733,13 @@
 				17B97B3C29A76B6500461873 /* Meteorite.swift in Sources */,
 				1748864529A938A9009634C0 /* ApiError.swift in Sources */,
 				177A4F1B29AB7F94006060E4 /* SettingsModelController.swift in Sources */,
+				1712B71729AD136C001C900D /* Extension+Formatter.swift in Sources */,
 				1748864129A93867009634C0 /* NetworkingHeader.swift in Sources */,
 				177A4EEC29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */,
 				177A4EF029AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */,
 				1748866229AA0F45009634C0 /* MapModelController.swift in Sources */,
 				1748866529AA0F45009634C0 /* MapFactory.swift in Sources */,
+				1712B71B29AD13A4001C900D /* Extension+Numeric.swift in Sources */,
 				177A4EFC29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */,
 				177A4F1F29AB7FA8006060E4 /* SettingsViewModel.swift in Sources */,
 				17CD7EB729A65A16003D78D9 /* AppDelegate.swift in Sources */,
@@ -734,6 +757,7 @@
 				17EBAA0229ACCC3B00535D2C /* ViewModelType.swift in Sources */,
 				1748863D29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
 				1748863429A8D4B8009634C0 /* ApiEndpoint.swift in Sources */,
+				1712B72329AD1537001C900D /* AlertViewPresentable.swift in Sources */,
 				1748865F29AA0F45009634C0 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -747,6 +771,8 @@
 				1748866329AA0F45009634C0 /* MapModelController.swift in Sources */,
 				1748866629AA0F45009634C0 /* MapFactory.swift in Sources */,
 				1748863E29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
+				1712B71C29AD13A4001C900D /* Extension+Numeric.swift in Sources */,
+				1712B72029AD14F4001C900D /* ViewType.swift in Sources */,
 				1748863129A8D230009634C0 /* NetworkingService.swift in Sources */,
 				177A4F0D29AB6A70006060E4 /* NavigationController.swift in Sources */,
 				177A4EFD29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */,
@@ -768,7 +794,9 @@
 				177A4F1429AB784B006060E4 /* SettingsViewController.swift in Sources */,
 				1748864A29A938ED009634C0 /* APIAuthorization.swift in Sources */,
 				1712B71429AD0195001C900D /* Extension+UIButton.swift in Sources */,
+				1712B72429AD1537001C900D /* AlertViewPresentable.swift in Sources */,
 				177A4F2829AB7FCC006060E4 /* SettingsFactory.swift in Sources */,
+				1712B71829AD136C001C900D /* Extension+Formatter.swift in Sources */,
 				177A4F3429AC9ED4006060E4 /* VoidResponse.swift in Sources */,
 				1748865A29AA0F45009634C0 /* MapInitialData.swift in Sources */,
 				177A4F2029AB7FA8006060E4 /* SettingsViewModel.swift in Sources */,
@@ -787,6 +815,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1712B72129AD14F4001C900D /* ViewType.swift in Sources */,
 				177A4F0229AA6B98006060E4 /* DetailMeteoriteFactory.swift in Sources */,
 				17EBAA0729ACCC3B00535D2C /* DataControllerType.swift in Sources */,
 				177A4EFA29AA6A70006060E4 /* DetailMeteoriteViewModel.swift in Sources */,
@@ -803,11 +832,13 @@
 				17CD7EDA29A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift in Sources */,
 				177A4F1D29AB7F94006060E4 /* SettingsModelController.swift in Sources */,
 				177A4EE829AA5675006060E4 /* Coordinator.swift in Sources */,
+				1712B71929AD136C001C900D /* Extension+Formatter.swift in Sources */,
 				177A4EEE29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */,
 				177A4EF229AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */,
 				1748865829AA0F45009634C0 /* MapDataController.swift in Sources */,
 				1748864B29A938ED009634C0 /* APIAuthorization.swift in Sources */,
 				1748864329A93867009634C0 /* NetworkingHeader.swift in Sources */,
+				1712B71D29AD13A4001C900D /* Extension+Numeric.swift in Sources */,
 				177A4EFE29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */,
 				177A4F2129AB7FA8006060E4 /* SettingsViewModel.swift in Sources */,
 				17CD7ED829A65A17003D78D9 /* SkyFall_AlertUITests.swift in Sources */,
@@ -825,6 +856,7 @@
 				17EBAA0429ACCC3B00535D2C /* ViewModelType.swift in Sources */,
 				1748865E29AA0F45009634C0 /* MapViewModel.swift in Sources */,
 				1748863F29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
+				1712B72529AD1537001C900D /* AlertViewPresentable.swift in Sources */,
 				1748866129AA0F45009634C0 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

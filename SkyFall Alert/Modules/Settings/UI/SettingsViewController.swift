@@ -16,7 +16,7 @@ import MapKit
 /// func display(_ viewModel: SettingsViewModel)
 /// func displayProfileImage(_ image: UIImage)
 /// ```
-protocol SettingsViewType: UIViewController {
+protocol SettingsViewType: ViewType {
     func display(_ viewModel: SettingsViewModel)
 }
 
@@ -40,11 +40,6 @@ final class SettingsViewController: UIViewController {
         styleViews()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        navigationController?.navigationBar.isHidden = false
-        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .close, target: self, action: #selector(didTapConfirm))
-    }
-    
     private func setupUI() {
         view.addSubview(settingsTitle)
         view.addSubview(sliderMassView)
@@ -53,7 +48,6 @@ final class SettingsViewController: UIViewController {
         
         settingsTitle.snp.makeConstraints { make in
             make.leading.equalTo(view.safeAreaLayoutGuide.snp.leading).inset(20)
-            make.trailing.equalTo(view.safeAreaLayoutGuide.snp.trailing).inset(20)
             make.top.equalTo(view.safeAreaLayoutGuide.snp.top).inset(20)
         }
 

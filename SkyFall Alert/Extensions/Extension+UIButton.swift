@@ -16,6 +16,5 @@ extension UIButton {
         configuration.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10)
         self.configuration = configuration
         self.setTitleColor(.white, for: .normal)
-        print("marek zkouska", self.layer.cornerRadius)
     }
 }

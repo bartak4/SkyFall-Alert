@@ -14,7 +14,7 @@ final class MapModelController {
     var initialData: MapInitialData
     
     let meteorMapper: MeteorMapperType = MeteorMapper()
-    let networkingService = NetworkingService()
+    let networkingService: NetworkingServiceType = NetworkingService()
 
     required init(initialData: MapInitialData) {
         self.initialData = initialData
@@ -33,7 +33,7 @@ extension MapModelController: MapDataModelControllerDelegate {
     
     func filterMeteorites(meteorites: [Meteorite], filter: Filter) -> [Meteorite] {
         meteorites
-            .filter({ $0.year > Int(filter.minYear)})
-            .filter({ $0.mass > Int(filter.minMass)})
+            .filter({ $0.year >= Int(filter.minYear) && $0.mass >= Int(filter.minMass)})
+
     }
 }

@@ -55,9 +55,6 @@ extension DetailMeteoriteDataController: DetailMeteoriteViewDataControllerDelega
     func didTapBack() {
         coordinator.back()
     }
-    
-    
-    
 }
 
 extension DetailMeteoriteDataController: DetailMeteoriteViewModelDataControllerDelegate {
