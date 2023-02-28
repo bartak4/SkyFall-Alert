@@ -22,10 +22,10 @@ protocol SettingsViewType: ViewType {
 
 final class SettingsViewController: UIViewController {
     
-    let settingsTitle = UILabel()
-    let sliderMassView = SliderView()
-    let sliderYaerView = SliderView()
-    let confirmButton = UIButton()
+    private let settingsTitle = UILabel()
+    private let sliderMassView = SliderView()
+    private let sliderYaerView = SliderView()
+    private let confirmButton = UIButton()
     
     public var dataController: SettingsViewDataControllerDelegate!
     private var viewModel: SettingsViewModel?
