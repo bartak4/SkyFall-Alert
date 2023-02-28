@@ -25,8 +25,8 @@ final class DetailMeteoriteViewController: UIViewController {
     public var dataController: DetailMeteoriteViewDataControllerDelegate!
     private var viewModel: DetailMeteoriteViewModel?
     
-    let tableView = UITableView()
-    let mapView =  MKMapView()
+    private let tableView = UITableView()
+    private let mapView =  MKMapView()
     
     override func viewDidLoad() {
         super.viewDidLoad()

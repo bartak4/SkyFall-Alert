@@ -18,10 +18,10 @@ final class MapViewController: UIViewController {
     public var dataController: MapViewDataControllerDelegate!
     private var viewModel: MapViewModel?
     
-    let mainButton = UIButton()
-    let mapView = MKMapView()
-    let settingsButton = UIButton()
-    let resultLabel = UILabel()
+    private let mainButton = UIButton()
+    private let mapView = MKMapView()
+    private let settingsButton = UIButton()
+    private let resultLabel = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
