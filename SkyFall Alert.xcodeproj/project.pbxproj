@@ -22,6 +22,9 @@
 		1712B72329AD1537001C900D /* AlertViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72229AD1537001C900D /* AlertViewPresentable.swift */; };
 		1712B72429AD1537001C900D /* AlertViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72229AD1537001C900D /* AlertViewPresentable.swift */; };
 		1712B72529AD1537001C900D /* AlertViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72229AD1537001C900D /* AlertViewPresentable.swift */; };
+		1712B72729ADE71F001C900D /* Extension+MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72629ADE71F001C900D /* Extension+MapView.swift */; };
+		1712B72829ADE71F001C900D /* Extension+MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72629ADE71F001C900D /* Extension+MapView.swift */; };
+		1712B72929ADE71F001C900D /* Extension+MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712B72629ADE71F001C900D /* Extension+MapView.swift */; };
 		1748863029A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
 		1748863129A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
 		1748863229A8D230009634C0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748862F29A8D230009634C0 /* NetworkingService.swift */; };
@@ -165,6 +168,7 @@
 		1712B71A29AD13A4001C900D /* Extension+Numeric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Numeric.swift"; sourceTree = "<group>"; };
 		1712B71E29AD14F4001C900D /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
 		1712B72229AD1537001C900D /* AlertViewPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewPresentable.swift; sourceTree = "<group>"; };
+		1712B72629ADE71F001C900D /* Extension+MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+MapView.swift"; sourceTree = "<group>"; };
 		1748862F29A8D230009634C0 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 		1748863329A8D4B8009634C0 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
 		1748863C29A93712009634C0 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
@@ -338,6 +342,7 @@
 				177A4F0729AA9F11006060E4 /* Extension+UITableViewCell.swift */,
 				1712B71229AD0195001C900D /* Extension+UIButton.swift */,
 				1712B71A29AD13A4001C900D /* Extension+Numeric.swift */,
+				1712B72629ADE71F001C900D /* Extension+MapView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -735,6 +740,7 @@
 				177A4F1B29AB7F94006060E4 /* SettingsModelController.swift in Sources */,
 				1712B71729AD136C001C900D /* Extension+Formatter.swift in Sources */,
 				1748864129A93867009634C0 /* NetworkingHeader.swift in Sources */,
+				1712B72729ADE71F001C900D /* Extension+MapView.swift in Sources */,
 				177A4EEC29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */,
 				177A4EF029AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */,
 				1748866229AA0F45009634C0 /* MapModelController.swift in Sources */,
@@ -768,6 +774,7 @@
 			files = (
 				177A4ED929AA28CF006060E4 /* MeteorResponse.swift in Sources */,
 				177A4EED29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */,
+				1712B72829ADE71F001C900D /* Extension+MapView.swift in Sources */,
 				1748866329AA0F45009634C0 /* MapModelController.swift in Sources */,
 				1748866629AA0F45009634C0 /* MapFactory.swift in Sources */,
 				1748863E29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
@@ -834,6 +841,7 @@
 				177A4EE829AA5675006060E4 /* Coordinator.swift in Sources */,
 				1712B71929AD136C001C900D /* Extension+Formatter.swift in Sources */,
 				177A4EEE29AA6869006060E4 /* DetailMeteoriteViewController.swift in Sources */,
+				1712B72929ADE71F001C900D /* Extension+MapView.swift in Sources */,
 				177A4EF229AA694D006060E4 /* DetailMeteoriteInitialData.swift in Sources */,
 				1748865829AA0F45009634C0 /* MapDataController.swift in Sources */,
 				1748864B29A938ED009634C0 /* APIAuthorization.swift in Sources */,

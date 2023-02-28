@@ -119,8 +119,6 @@ extension MapViewController: MapViewType {
             }
             mapView.removeAnnotations(meteoritesToDelete)
         }
-
-        print(mapView.annotations.count)
         mainButton.setTitle(viewModel.mainButtonTitle, for: .normal)
         resultLabel.text = viewModel.resultTitle
         if viewModel.meteorites.count > 0 {
@@ -129,17 +127,6 @@ extension MapViewController: MapViewType {
         } else {
             resultLabel.isHidden = true
         }
-    }
-}
-
-
-extension MKMapView {
-    func centerToLocation(_ location: CLLocation, regionRadius: CLLocationDistance = 150000) {
-        let coordinateRegion = MKCoordinateRegion(
-            center: location.coordinate,
-            latitudinalMeters: regionRadius,
-            longitudinalMeters: regionRadius)
-        setRegion(coordinateRegion, animated: true)
     }
 }
 
