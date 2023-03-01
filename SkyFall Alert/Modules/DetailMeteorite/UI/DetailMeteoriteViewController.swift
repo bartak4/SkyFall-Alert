@@ -50,12 +50,14 @@ final class DetailMeteoriteViewController: UIViewController {
         
         mapView.snp.makeConstraints { make in
             make.top.leading.trailing.equalToSuperview()
-            make.height.equalTo(UIScreen.main.bounds.height/2)
+            make.bottom.equalTo(view.snp.centerY)
         }
         
         tableView.snp.makeConstraints { make in
-            make.leading.bottom.trailing.equalToSuperview()
-            make.height.equalTo(UIScreen.main.bounds.height/2)
+            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
+            make.leading.equalTo(view.safeAreaLayoutGuide.snp.leading)
+            make.trailing.equalTo(view.safeAreaLayoutGuide.snp.trailing)
+            make.top.equalTo(view.snp.centerY)
         }
     }
     
@@ -66,6 +68,8 @@ final class DetailMeteoriteViewController: UIViewController {
         
         mapView.showsUserLocation = true
         mapView.translatesAutoresizingMaskIntoConstraints = false
+        
+        view.backgroundColor = .white
     }
     
     @objc private func didTapBack() {
