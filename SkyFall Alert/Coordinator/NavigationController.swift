@@ -8,10 +8,6 @@
 import Foundation
 import UIKit
 
-protocol SkyFallNavigationControllerType: UINavigationController {
-    
-}
-
 class SkyFallNavigationController: UINavigationController {
     
     override func viewDidLoad() {
@@ -25,8 +21,3 @@ extension SkyFallNavigationController: UIGestureRecognizerDelegate {
         return true
     }
 }
-
-extension SkyFallNavigationController: SkyFallNavigationControllerType {
-    
-}
-

@@ -7,6 +7,4 @@
 
 import Foundation
 
-protocol ViewType: AlertViewPresentable {
-    
-}
+protocol ViewType: AlertViewPresentable { }

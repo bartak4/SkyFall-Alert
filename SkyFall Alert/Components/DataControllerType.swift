@@ -7,6 +7,6 @@
 
 import Foundation
 
-public protocol DataControllerType: ViewModelType {
+public protocol DataControllerType: AnyObject {
     func viewDidLoad()
 }

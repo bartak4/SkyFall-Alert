@@ -17,7 +17,7 @@ protocol SettingsViewDataControllerDelegate: DataControllerType {
 }
 
 /// Connection view model -> data controller
-protocol SettingsViewModelDataControllerDelegate: ViewModelType {
+protocol SettingsViewModelDataControllerDelegate: AnyObject {
     
 }
 

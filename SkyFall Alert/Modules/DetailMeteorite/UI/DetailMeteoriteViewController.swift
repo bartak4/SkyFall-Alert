@@ -52,7 +52,6 @@ final class DetailMeteoriteViewController: UIViewController {
             make.top.leading.trailing.equalToSuperview()
             make.bottom.equalTo(view.snp.centerY)
         }
-        
         tableView.snp.makeConstraints { make in
             make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
             make.leading.equalTo(view.safeAreaLayoutGuide.snp.leading)

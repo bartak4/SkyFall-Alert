@@ -7,27 +7,25 @@ final class MapViewModel {
     
     var meteorites: [Meteorite] = []
     let isFilterActive: Bool
-    var mainButtonTitle: String = ""
     var resultTitle: String = ""
+    var mainButtonTitle: String {
+        switch isFilterActive {
+            case true:
+                return "Filter Reset"
+            case false:
+                return "Search meteorites"
+        }
+    }
     
     required init(delegate: MapViewModelDataControllerDelegate, meteorites: [Meteorite], isFilterActive: Bool) {
         self.delegate = delegate
         self.meteorites = meteorites
         self.isFilterActive = isFilterActive
-        setMainButtonTitle()
         setResultTitle()
     }
     
     private func setResultTitle() {
         let plural = meteorites.count == 1 ? "" : "s"
         resultTitle = "   Result \(meteorites.count) meteorite\(plural)   "
-    }
-    
-    private func setMainButtonTitle() {
-        if isFilterActive {
-            mainButtonTitle = "Filter Reset"
-        } else {
-            mainButtonTitle = "Search meteorites"
-        }
     }
 }

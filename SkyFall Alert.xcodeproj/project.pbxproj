@@ -134,9 +134,6 @@
 		17CD7ECE29A65A17003D78D9 /* SkyFall_AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7ECD29A65A17003D78D9 /* SkyFall_AlertTests.swift */; };
 		17CD7ED829A65A17003D78D9 /* SkyFall_AlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7ED729A65A17003D78D9 /* SkyFall_AlertUITests.swift */; };
 		17CD7EDA29A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD7ED929A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift */; };
-		17EBAA0229ACCC3B00535D2C /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */; };
-		17EBAA0329ACCC3B00535D2C /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */; };
-		17EBAA0429ACCC3B00535D2C /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */; };
 		17EBAA0529ACCC3B00535D2C /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */; };
 		17EBAA0629ACCC3B00535D2C /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */; };
 		17EBAA0729ACCC3B00535D2C /* DataControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */; };
@@ -214,7 +211,6 @@
 		17CD7ED329A65A17003D78D9 /* SkyFall AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SkyFall AlertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CD7ED729A65A17003D78D9 /* SkyFall_AlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFall_AlertUITests.swift; sourceTree = "<group>"; };
 		17CD7ED929A65A17003D78D9 /* SkyFall_AlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFall_AlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataControllerType.swift; sourceTree = "<group>"; };
 		1A2504382A1E7A6F45911DF2 /* Pods_SkyFall_AlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyFall_AlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C26CD71ECD8F4228D3FB93 /* Pods-SkyFall AlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyFall AlertTests.release.xcconfig"; path = "Target Support Files/Pods-SkyFall AlertTests/Pods-SkyFall AlertTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -327,7 +323,6 @@
 			isa = PBXGroup;
 			children = (
 				17EBAA0129ACCC3B00535D2C /* DataControllerType.swift */,
-				17EBAA0029ACCC3B00535D2C /* ViewModelType.swift */,
 				1712B71E29AD14F4001C900D /* ViewType.swift */,
 				1712B72229AD1537001C900D /* AlertViewPresentable.swift */,
 			);
@@ -760,7 +755,6 @@
 				177A4F1729AB7F80006060E4 /* SettingsInitialData.swift in Sources */,
 				177A4EE629AA5675006060E4 /* Coordinator.swift in Sources */,
 				177A4EDC29AA2A26006060E4 /* MeteorMapper.swift in Sources */,
-				17EBAA0229ACCC3B00535D2C /* ViewModelType.swift in Sources */,
 				1748863D29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
 				1748863429A8D4B8009634C0 /* ApiEndpoint.swift in Sources */,
 				1712B72329AD1537001C900D /* AlertViewPresentable.swift in Sources */,
@@ -783,7 +777,6 @@
 				1748863129A8D230009634C0 /* NetworkingService.swift in Sources */,
 				177A4F0D29AB6A70006060E4 /* NavigationController.swift in Sources */,
 				177A4EFD29AA6B07006060E4 /* DetailMeteoriteDataController.swift in Sources */,
-				17EBAA0329ACCC3B00535D2C /* ViewModelType.swift in Sources */,
 				177A4F1829AB7F80006060E4 /* SettingsInitialData.swift in Sources */,
 				1748865729AA0F45009634C0 /* MapDataController.swift in Sources */,
 				177A4EDD29AA2A26006060E4 /* MeteorMapper.swift in Sources */,
@@ -861,7 +854,6 @@
 				177A4F1929AB7F80006060E4 /* SettingsInitialData.swift in Sources */,
 				1748863629A8D4B8009634C0 /* ApiEndpoint.swift in Sources */,
 				1748865B29AA0F45009634C0 /* MapInitialData.swift in Sources */,
-				17EBAA0429ACCC3B00535D2C /* ViewModelType.swift in Sources */,
 				1748865E29AA0F45009634C0 /* MapViewModel.swift in Sources */,
 				1748863F29A93712009634C0 /* HTTPStatusCode.swift in Sources */,
 				1712B72529AD1537001C900D /* AlertViewPresentable.swift in Sources */,

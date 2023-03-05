@@ -10,12 +10,12 @@ import MapKit
 import Contacts
 
 class Meteorite: NSObject, MKAnnotation {
+    
     let name: String?
     let id: Int
     let mass: Int
     let year: Int
     let coordinate: CLLocationCoordinate2D
-    
     
     init(name: String?, id: Int, mass: Int, year: Int, coordinate: CLLocationCoordinate2D) {
         self.name = name
