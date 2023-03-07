@@ -21,8 +21,10 @@ class MainCoordinator {
         self.navigationController = navigationController
     }
     
+    let networkingService = NetworkingService()
+    
     func start() {
-        let vc = MapViewController.instantiate(initialData: MapInitialData(), coordinator: self)
+        let vc = MapViewController.instantiate(initialData: MapInitialData(), coordinator: self, networkingService: networkingService)
         navigationController?.setViewControllers([vc], animated: true)
     }
 }
