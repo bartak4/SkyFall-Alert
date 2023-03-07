@@ -13,11 +13,12 @@ final class MapModelController {
     
     var initialData: MapInitialData
     
-    let meteorMapper: MeteorMapperType = MeteorMapper()
-    let networkingService: NetworkingServiceType = NetworkingService()
-
-    required init(initialData: MapInitialData) {
+    private let networkingService: NetworkingServiceType
+    private let meteorMapper: MeteorMapperType = MeteorMapper()
+    
+    required init(initialData: MapInitialData, networkingService: NetworkingServiceType) {
         self.initialData = initialData
+        self.networkingService = networkingService
     }
 }
 
