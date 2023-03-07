@@ -51,7 +51,6 @@ extension MainCoordinator: MapCoordinatorDelegate {
     }
 }
 
-
 extension MainCoordinator: DetailMeteoriteCoordinatorDelegate { }
 
 extension MainCoordinator: SettingsCoordinatorDelegate { }

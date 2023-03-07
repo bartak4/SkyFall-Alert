@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 public extension UITableViewCell {
-    
     static var className: String {
         return NSStringFromClass(self).components(separatedBy: ".").last!
     }

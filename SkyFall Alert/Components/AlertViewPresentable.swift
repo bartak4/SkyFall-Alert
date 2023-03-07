@@ -19,7 +19,6 @@ struct AlertViewModel {
 }
 
 extension AlertViewPresentable {
-    
     func display(alert: AlertViewModel) {
         let alertController = UIAlertController(title: alert.title, message: alert.message, preferredStyle: alert.style)
         let okAction = UIAlertAction(title: "OK", style: .default)

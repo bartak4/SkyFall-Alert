@@ -8,7 +8,7 @@ protocol MapDataModelControllerDelegate: AnyObject {
 }
 
 final class MapModelController {
-
+    
     weak var delegate: MapModelDataControllerDelegate?
     
     var initialData: MapInitialData

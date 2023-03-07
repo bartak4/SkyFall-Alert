@@ -17,7 +17,7 @@ protocol DetailMeteoriteViewDataControllerDelegate: DataControllerType {
 }
 
 /// Connection view model -> data controller
-protocol DetailMeteoriteViewModelDataControllerDelegate: ViewModelType {
+protocol DetailMeteoriteViewModelDataControllerDelegate: AnyObject {
     
 }
 
@@ -62,6 +62,5 @@ extension DetailMeteoriteDataController: DetailMeteoriteViewModelDataControllerD
 }
 
 extension DetailMeteoriteDataController: DetailMeteoriteModelDataControllerDelegate {
-    
     
 }

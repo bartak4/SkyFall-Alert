@@ -7,6 +7,4 @@ import Foundation
 ///     let transactionId: String
 /// }
 /// ```
-struct MapInitialData {
-
-}
+struct MapInitialData { }

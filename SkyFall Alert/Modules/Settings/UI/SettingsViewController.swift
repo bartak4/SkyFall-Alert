@@ -50,19 +50,16 @@ final class SettingsViewController: UIViewController {
             make.leading.equalTo(view.safeAreaLayoutGuide.snp.leading).inset(20)
             make.top.equalTo(view.safeAreaLayoutGuide.snp.top).inset(20)
         }
-
         sliderMassView.snp.makeConstraints { make in
             make.top.equalTo(settingsTitle.snp.bottom).offset(10)
             make.leading.equalTo(view.safeAreaLayoutGuide.snp.leading).inset(20)
             make.trailing.equalTo(view.safeAreaLayoutGuide.snp.trailing).inset(20)
         }
-        
         sliderYaerView.snp.makeConstraints { make in
             make.top.equalTo(sliderMassView.snp.bottom).offset(10)
             make.leading.equalTo(view.safeAreaLayoutGuide.snp.leading).inset(20)
             make.trailing.equalTo(view.safeAreaLayoutGuide.snp.trailing).inset(20)
         }
-        
         confirmButton.snp.makeConstraints { make in
             make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).inset(20)
             make.centerX.equalToSuperview()

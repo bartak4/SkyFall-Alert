@@ -13,6 +13,7 @@ protocol MeteorMapperType {
 }
 
 class MeteorMapper {
+    
     private func getYear(isoDate: String) -> Int {
         if isoDate.count > 4 {
             let index = isoDate.index(isoDate.startIndex, offsetBy: 4)
@@ -23,7 +24,6 @@ class MeteorMapper {
 }
 
 extension MeteorMapper: MeteorMapperType {
-    
     func mapMeteoreResponseToMeteorite(meteoriteResponse: [MeteorResponse]) -> [Meteorite] {
         meteoriteResponse.map {
             Meteorite(name: $0.name,

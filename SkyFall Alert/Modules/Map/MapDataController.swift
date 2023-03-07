@@ -20,7 +20,7 @@ protocol MapViewDataControllerDelegate: DataControllerType {
 }
 
 /// Connection view model -> data controller
-protocol MapViewModelDataControllerDelegate: ViewModelType {
+protocol MapViewModelDataControllerDelegate: AnyObject {
     
 }
 
@@ -99,8 +99,7 @@ extension MapDataController: MapModelDataControllerDelegate {
     
     func presentError(_ error: Error) {
         if let error = error as? ApiError {
-            view?.display(alert: .init(title: "Error", message: error.errorDescription, style: .alert))
-        }
+            view?.display(alert: .init(title: "Error", message: error.errorDescription, style: .alert)) }
         else {
             view?.display(alert: .init(title: "Error", message: error.localizedDescription, style: .alert))
         }
